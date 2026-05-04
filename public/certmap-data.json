@@ -1,0 +1,4366 @@
+{
+  "generated_at": "2026-05-04T21:22:19.582Z",
+  "systems": [
+    {
+      "id": "hart-verity-2-6",
+      "slug": "hart-verity-2-6",
+      "name": "Verity Voting 2.6",
+      "manufacturer": "Hart InterCivic",
+      "vvsg_version": "2.0",
+      "cert_date": "2024-03-22",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-26",
+      "advisory_notices": []
+    },
+    {
+      "id": "ess-evs-6-5-0-0",
+      "slug": "ess-evs-6-5-0-0",
+      "name": "EVS 6.5.0.0",
+      "manufacturer": "ES&S",
+      "vvsg_version": "1.0",
+      "cert_date": "2024-08-14",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/evs-6500",
+      "advisory_notices": []
+    },
+    {
+      "id": "ess-evs-6-1-2-0",
+      "slug": "ess-evs-6-1-2-0",
+      "name": "EVS 6.1.2.0",
+      "manufacturer": "ES&S",
+      "vvsg_version": "1.0",
+      "cert_date": "2022-11-09",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/evs-6120",
+      "advisory_notices": [
+        {
+          "date": "2025-03-04",
+          "title": "Maintenance update — DS200 firmware revision"
+        }
+      ]
+    },
+    {
+      "id": "ess-evs-6-1-1-0",
+      "slug": "ess-evs-6-1-1-0",
+      "name": "EVS 6.1.1.0",
+      "manufacturer": "ES&S",
+      "vvsg_version": "1.0",
+      "cert_date": "2021-04-02",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+      "advisory_notices": []
+    },
+    {
+      "id": "ess-evs-6-0-4-0",
+      "slug": "ess-evs-6-0-4-0",
+      "name": "EVS 6.0.4.0",
+      "manufacturer": "ES&S",
+      "vvsg_version": "1.0",
+      "cert_date": "2019-09-12",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
+      "advisory_notices": []
+    },
+    {
+      "id": "ess-evs-5-5-0-0",
+      "slug": "ess-evs-5-5-0-0",
+      "name": "EVS 5.5.0.0",
+      "manufacturer": "ES&S",
+      "vvsg_version": "1.0",
+      "cert_date": "2019-02-11",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/evs-5500",
+      "advisory_notices": []
+    },
+    {
+      "id": "dominion-democracy-suite-5-17",
+      "slug": "dominion-democracy-suite-5-17",
+      "name": "Democracy Suite 5.17",
+      "manufacturer": "Dominion Voting Systems",
+      "vvsg_version": "1.0",
+      "cert_date": "2023-06-30",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
+      "advisory_notices": []
+    },
+    {
+      "id": "dominion-democracy-suite-5-15",
+      "slug": "dominion-democracy-suite-5-15",
+      "name": "Democracy Suite 5.15",
+      "manufacturer": "Dominion Voting Systems",
+      "vvsg_version": "1.0",
+      "cert_date": "2022-01-18",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-515",
+      "advisory_notices": []
+    },
+    {
+      "id": "dominion-democracy-suite-5-13",
+      "slug": "dominion-democracy-suite-5-13",
+      "name": "Democracy Suite 5.13",
+      "manufacturer": "Dominion Voting Systems",
+      "vvsg_version": "1.0",
+      "cert_date": "2021-08-09",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-513",
+      "advisory_notices": []
+    },
+    {
+      "id": "dominion-democracy-suite-5-10",
+      "slug": "dominion-democracy-suite-5-10",
+      "name": "Democracy Suite 5.10",
+      "manufacturer": "Dominion Voting Systems",
+      "vvsg_version": "1.0",
+      "cert_date": "2018-10-04",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-510",
+      "advisory_notices": []
+    },
+    {
+      "id": "dominion-democracy-suite-5-5-a",
+      "slug": "dominion-democracy-suite-5-5-a",
+      "name": "Democracy Suite 5.5-A",
+      "manufacturer": "Dominion Voting Systems",
+      "vvsg_version": "1.0",
+      "cert_date": "2018-12-13",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-55a",
+      "advisory_notices": []
+    },
+    {
+      "id": "hart-verity-2-5",
+      "slug": "hart-verity-2-5",
+      "name": "Verity Voting 2.5",
+      "manufacturer": "Hart InterCivic",
+      "vvsg_version": "1.0",
+      "cert_date": "2022-05-20",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-25",
+      "advisory_notices": []
+    },
+    {
+      "id": "hart-verity-2-4",
+      "slug": "hart-verity-2-4",
+      "name": "Verity Voting 2.4",
+      "manufacturer": "Hart InterCivic",
+      "vvsg_version": "1.0",
+      "cert_date": "2020-07-17",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-24",
+      "advisory_notices": []
+    },
+    {
+      "id": "hart-verity-2-3",
+      "slug": "hart-verity-2-3",
+      "name": "Verity Voting 2.3",
+      "manufacturer": "Hart InterCivic",
+      "vvsg_version": "1.0",
+      "cert_date": "2019-02-21",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-23",
+      "advisory_notices": []
+    },
+    {
+      "id": "unisyn-openelect-2-1",
+      "slug": "unisyn-openelect-2-1",
+      "name": "OpenElect 2.1",
+      "manufacturer": "Unisyn Voting Solutions",
+      "vvsg_version": "1.0",
+      "cert_date": "2022-09-30",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/openelect-21",
+      "advisory_notices": []
+    },
+    {
+      "id": "clear-ballot-clearvote-2-3",
+      "slug": "clear-ballot-clearvote-2-3",
+      "name": "ClearVote 2.3",
+      "manufacturer": "Clear Ballot Group",
+      "vvsg_version": "1.0",
+      "cert_date": "2023-02-14",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/clearvote-23",
+      "advisory_notices": []
+    },
+    {
+      "id": "microvote-infinity-4-1",
+      "slug": "microvote-infinity-4-1",
+      "name": "Infinity Voting Panel 4.1",
+      "manufacturer": "MicroVote General",
+      "vvsg_version": "1.0",
+      "cert_date": "2018-04-12",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/infinity-41",
+      "advisory_notices": []
+    }
+  ],
+  "states": [
+    {
+      "abbreviation": "AL",
+      "name": "Alabama",
+      "has_state_cert_requirement": true,
+      "primary_system_id": "ess-evs-6-1-1-0",
+      "jurisdiction_count": 67,
+      "primary_system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "AK",
+      "name": "Alaska",
+      "has_state_cert_requirement": false,
+      "primary_system_id": "dominion-democracy-suite-5-15",
+      "jurisdiction_count": 40,
+      "primary_system": {
+        "id": "dominion-democracy-suite-5-15",
+        "slug": "dominion-democracy-suite-5-15",
+        "name": "Democracy Suite 5.15",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-01-18",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-515",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "AZ",
+      "name": "Arizona",
+      "has_state_cert_requirement": true,
+      "primary_system_id": "dominion-democracy-suite-5-17",
+      "jurisdiction_count": 15,
+      "primary_system": {
+        "id": "dominion-democracy-suite-5-17",
+        "slug": "dominion-democracy-suite-5-17",
+        "name": "Democracy Suite 5.17",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2023-06-30",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "AR",
+      "name": "Arkansas",
+      "has_state_cert_requirement": false,
+      "primary_system_id": "ess-evs-6-1-1-0",
+      "jurisdiction_count": 75,
+      "primary_system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "CA",
+      "name": "California",
+      "has_state_cert_requirement": true,
+      "primary_system_id": "dominion-democracy-suite-5-17",
+      "jurisdiction_count": 58,
+      "notes": "Mixed: Dominion, Hart, ES&S across counties.",
+      "primary_system": {
+        "id": "dominion-democracy-suite-5-17",
+        "slug": "dominion-democracy-suite-5-17",
+        "name": "Democracy Suite 5.17",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2023-06-30",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "CO",
+      "name": "Colorado",
+      "has_state_cert_requirement": true,
+      "primary_system_id": "dominion-democracy-suite-5-17",
+      "jurisdiction_count": 64,
+      "primary_system": {
+        "id": "dominion-democracy-suite-5-17",
+        "slug": "dominion-democracy-suite-5-17",
+        "name": "Democracy Suite 5.17",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2023-06-30",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "CT",
+      "name": "Connecticut",
+      "has_state_cert_requirement": true,
+      "primary_system_id": "dominion-democracy-suite-5-15",
+      "jurisdiction_count": 169,
+      "primary_system": {
+        "id": "dominion-democracy-suite-5-15",
+        "slug": "dominion-democracy-suite-5-15",
+        "name": "Democracy Suite 5.15",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-01-18",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-515",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "DE",
+      "name": "Delaware",
+      "has_state_cert_requirement": false,
+      "primary_system_id": "ess-evs-6-1-1-0",
+      "jurisdiction_count": 3,
+      "primary_system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "DC",
+      "name": "District of Columbia",
+      "has_state_cert_requirement": false,
+      "primary_system_id": "dominion-democracy-suite-5-13",
+      "jurisdiction_count": 1,
+      "primary_system": {
+        "id": "dominion-democracy-suite-5-13",
+        "slug": "dominion-democracy-suite-5-13",
+        "name": "Democracy Suite 5.13",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-08-09",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-513",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "FL",
+      "name": "Florida",
+      "has_state_cert_requirement": true,
+      "primary_system_id": "ess-evs-6-1-2-0",
+      "jurisdiction_count": 67,
+      "notes": "Mixed: ES&S, Dominion, Hart across counties.",
+      "primary_system": {
+        "id": "ess-evs-6-1-2-0",
+        "slug": "ess-evs-6-1-2-0",
+        "name": "EVS 6.1.2.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-11-09",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6120",
+        "advisory_notices": [
+          {
+            "date": "2025-03-04",
+            "title": "Maintenance update — DS200 firmware revision"
+          }
+        ]
+      }
+    },
+    {
+      "abbreviation": "GA",
+      "name": "Georgia",
+      "has_state_cert_requirement": true,
+      "primary_system_id": "dominion-democracy-suite-5-17",
+      "jurisdiction_count": 159,
+      "primary_system": {
+        "id": "dominion-democracy-suite-5-17",
+        "slug": "dominion-democracy-suite-5-17",
+        "name": "Democracy Suite 5.17",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2023-06-30",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "HI",
+      "name": "Hawaii",
+      "has_state_cert_requirement": false,
+      "primary_system_id": "hart-verity-2-5",
+      "jurisdiction_count": 4,
+      "primary_system": {
+        "id": "hart-verity-2-5",
+        "slug": "hart-verity-2-5",
+        "name": "Verity Voting 2.5",
+        "manufacturer": "Hart InterCivic",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-05-20",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-25",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "ID",
+      "name": "Idaho",
+      "has_state_cert_requirement": false,
+      "primary_system_id": "ess-evs-6-0-4-0",
+      "jurisdiction_count": 44,
+      "primary_system": {
+        "id": "ess-evs-6-0-4-0",
+        "slug": "ess-evs-6-0-4-0",
+        "name": "EVS 6.0.4.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-09-12",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "IL",
+      "name": "Illinois",
+      "has_state_cert_requirement": true,
+      "primary_system_id": "ess-evs-6-1-1-0",
+      "jurisdiction_count": 108,
+      "primary_system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "IN",
+      "name": "Indiana",
+      "has_state_cert_requirement": true,
+      "primary_system_id": "microvote-infinity-4-1",
+      "jurisdiction_count": 92,
+      "primary_system": {
+        "id": "microvote-infinity-4-1",
+        "slug": "microvote-infinity-4-1",
+        "name": "Infinity Voting Panel 4.1",
+        "manufacturer": "MicroVote General",
+        "vvsg_version": "1.0",
+        "cert_date": "2018-04-12",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/infinity-41",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "IA",
+      "name": "Iowa",
+      "has_state_cert_requirement": false,
+      "primary_system_id": "hart-verity-2-6",
+      "jurisdiction_count": 99,
+      "primary_system": {
+        "id": "hart-verity-2-6",
+        "slug": "hart-verity-2-6",
+        "name": "Verity Voting 2.6",
+        "manufacturer": "Hart InterCivic",
+        "vvsg_version": "2.0",
+        "cert_date": "2024-03-22",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-26",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "KS",
+      "name": "Kansas",
+      "has_state_cert_requirement": false,
+      "primary_system_id": "ess-evs-6-1-1-0",
+      "jurisdiction_count": 105,
+      "primary_system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "KY",
+      "name": "Kentucky",
+      "has_state_cert_requirement": true,
+      "primary_system_id": "ess-evs-6-0-4-0",
+      "jurisdiction_count": 120,
+      "primary_system": {
+        "id": "ess-evs-6-0-4-0",
+        "slug": "ess-evs-6-0-4-0",
+        "name": "EVS 6.0.4.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-09-12",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "LA",
+      "name": "Louisiana",
+      "has_state_cert_requirement": true,
+      "primary_system_id": null,
+      "jurisdiction_count": 64,
+      "notes": "State-certified Sequoia AVC; EAC-cert procurement underway.",
+      "primary_system": null
+    },
+    {
+      "abbreviation": "ME",
+      "name": "Maine",
+      "has_state_cert_requirement": false,
+      "primary_system_id": "dominion-democracy-suite-5-5-a",
+      "jurisdiction_count": 16,
+      "primary_system": {
+        "id": "dominion-democracy-suite-5-5-a",
+        "slug": "dominion-democracy-suite-5-5-a",
+        "name": "Democracy Suite 5.5-A",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2018-12-13",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-55a",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "MD",
+      "name": "Maryland",
+      "has_state_cert_requirement": true,
+      "primary_system_id": "ess-evs-6-1-2-0",
+      "jurisdiction_count": 24,
+      "primary_system": {
+        "id": "ess-evs-6-1-2-0",
+        "slug": "ess-evs-6-1-2-0",
+        "name": "EVS 6.1.2.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-11-09",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6120",
+        "advisory_notices": [
+          {
+            "date": "2025-03-04",
+            "title": "Maintenance update — DS200 firmware revision"
+          }
+        ]
+      }
+    },
+    {
+      "abbreviation": "MA",
+      "name": "Massachusetts",
+      "has_state_cert_requirement": false,
+      "primary_system_id": "ess-evs-5-5-0-0",
+      "jurisdiction_count": 351,
+      "primary_system": {
+        "id": "ess-evs-5-5-0-0",
+        "slug": "ess-evs-5-5-0-0",
+        "name": "EVS 5.5.0.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-02-11",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-5500",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "MI",
+      "name": "Michigan",
+      "has_state_cert_requirement": true,
+      "primary_system_id": "ess-evs-6-0-4-0",
+      "jurisdiction_count": 83,
+      "notes": "Mixed: ES&S, Dominion, Hart across counties.",
+      "primary_system": {
+        "id": "ess-evs-6-0-4-0",
+        "slug": "ess-evs-6-0-4-0",
+        "name": "EVS 6.0.4.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-09-12",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "MN",
+      "name": "Minnesota",
+      "has_state_cert_requirement": true,
+      "primary_system_id": "ess-evs-6-0-4-0",
+      "jurisdiction_count": 87,
+      "primary_system": {
+        "id": "ess-evs-6-0-4-0",
+        "slug": "ess-evs-6-0-4-0",
+        "name": "EVS 6.0.4.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-09-12",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "MS",
+      "name": "Mississippi",
+      "has_state_cert_requirement": false,
+      "primary_system_id": "ess-evs-5-5-0-0",
+      "jurisdiction_count": 82,
+      "primary_system": {
+        "id": "ess-evs-5-5-0-0",
+        "slug": "ess-evs-5-5-0-0",
+        "name": "EVS 5.5.0.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-02-11",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-5500",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "MO",
+      "name": "Missouri",
+      "has_state_cert_requirement": true,
+      "primary_system_id": "ess-evs-6-0-4-0",
+      "jurisdiction_count": 116,
+      "primary_system": {
+        "id": "ess-evs-6-0-4-0",
+        "slug": "ess-evs-6-0-4-0",
+        "name": "EVS 6.0.4.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-09-12",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "MT",
+      "name": "Montana",
+      "has_state_cert_requirement": false,
+      "primary_system_id": "ess-evs-5-5-0-0",
+      "jurisdiction_count": 56,
+      "primary_system": {
+        "id": "ess-evs-5-5-0-0",
+        "slug": "ess-evs-5-5-0-0",
+        "name": "EVS 5.5.0.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-02-11",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-5500",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "NE",
+      "name": "Nebraska",
+      "has_state_cert_requirement": false,
+      "primary_system_id": "ess-evs-6-1-1-0",
+      "jurisdiction_count": 93,
+      "primary_system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "NV",
+      "name": "Nevada",
+      "has_state_cert_requirement": true,
+      "primary_system_id": "dominion-democracy-suite-5-17",
+      "jurisdiction_count": 17,
+      "primary_system": {
+        "id": "dominion-democracy-suite-5-17",
+        "slug": "dominion-democracy-suite-5-17",
+        "name": "Democracy Suite 5.17",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2023-06-30",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "NH",
+      "name": "New Hampshire",
+      "has_state_cert_requirement": false,
+      "primary_system_id": "dominion-democracy-suite-5-5-a",
+      "jurisdiction_count": 10,
+      "primary_system": {
+        "id": "dominion-democracy-suite-5-5-a",
+        "slug": "dominion-democracy-suite-5-5-a",
+        "name": "Democracy Suite 5.5-A",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2018-12-13",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-55a",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "NJ",
+      "name": "New Jersey",
+      "has_state_cert_requirement": true,
+      "primary_system_id": "dominion-democracy-suite-5-13",
+      "jurisdiction_count": 21,
+      "primary_system": {
+        "id": "dominion-democracy-suite-5-13",
+        "slug": "dominion-democracy-suite-5-13",
+        "name": "Democracy Suite 5.13",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-08-09",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-513",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "NM",
+      "name": "New Mexico",
+      "has_state_cert_requirement": true,
+      "primary_system_id": "dominion-democracy-suite-5-17",
+      "jurisdiction_count": 33,
+      "primary_system": {
+        "id": "dominion-democracy-suite-5-17",
+        "slug": "dominion-democracy-suite-5-17",
+        "name": "Democracy Suite 5.17",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2023-06-30",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "NY",
+      "name": "New York",
+      "has_state_cert_requirement": true,
+      "primary_system_id": "ess-evs-6-1-1-0",
+      "jurisdiction_count": 62,
+      "primary_system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "NC",
+      "name": "North Carolina",
+      "has_state_cert_requirement": true,
+      "primary_system_id": "ess-evs-6-1-2-0",
+      "jurisdiction_count": 100,
+      "primary_system": {
+        "id": "ess-evs-6-1-2-0",
+        "slug": "ess-evs-6-1-2-0",
+        "name": "EVS 6.1.2.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-11-09",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6120",
+        "advisory_notices": [
+          {
+            "date": "2025-03-04",
+            "title": "Maintenance update — DS200 firmware revision"
+          }
+        ]
+      }
+    },
+    {
+      "abbreviation": "ND",
+      "name": "North Dakota",
+      "has_state_cert_requirement": false,
+      "primary_system_id": "ess-evs-6-0-4-0",
+      "jurisdiction_count": 53,
+      "primary_system": {
+        "id": "ess-evs-6-0-4-0",
+        "slug": "ess-evs-6-0-4-0",
+        "name": "EVS 6.0.4.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-09-12",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "OH",
+      "name": "Ohio",
+      "has_state_cert_requirement": true,
+      "primary_system_id": "ess-evs-6-0-4-0",
+      "jurisdiction_count": 88,
+      "primary_system": {
+        "id": "ess-evs-6-0-4-0",
+        "slug": "ess-evs-6-0-4-0",
+        "name": "EVS 6.0.4.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-09-12",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "OK",
+      "name": "Oklahoma",
+      "has_state_cert_requirement": false,
+      "primary_system_id": "hart-verity-2-4",
+      "jurisdiction_count": 77,
+      "primary_system": {
+        "id": "hart-verity-2-4",
+        "slug": "hart-verity-2-4",
+        "name": "Verity Voting 2.4",
+        "manufacturer": "Hart InterCivic",
+        "vvsg_version": "1.0",
+        "cert_date": "2020-07-17",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-24",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "OR",
+      "name": "Oregon",
+      "has_state_cert_requirement": true,
+      "primary_system_id": "hart-verity-2-3",
+      "jurisdiction_count": 36,
+      "primary_system": {
+        "id": "hart-verity-2-3",
+        "slug": "hart-verity-2-3",
+        "name": "Verity Voting 2.3",
+        "manufacturer": "Hart InterCivic",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-02-21",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-23",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "PA",
+      "name": "Pennsylvania",
+      "has_state_cert_requirement": true,
+      "primary_system_id": "ess-evs-6-1-1-0",
+      "jurisdiction_count": 67,
+      "primary_system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "RI",
+      "name": "Rhode Island",
+      "has_state_cert_requirement": false,
+      "primary_system_id": "ess-evs-6-0-4-0",
+      "jurisdiction_count": 39,
+      "primary_system": {
+        "id": "ess-evs-6-0-4-0",
+        "slug": "ess-evs-6-0-4-0",
+        "name": "EVS 6.0.4.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-09-12",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "SC",
+      "name": "South Carolina",
+      "has_state_cert_requirement": true,
+      "primary_system_id": "ess-evs-6-1-1-0",
+      "jurisdiction_count": 46,
+      "primary_system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "SD",
+      "name": "South Dakota",
+      "has_state_cert_requirement": false,
+      "primary_system_id": "ess-evs-5-5-0-0",
+      "jurisdiction_count": 66,
+      "primary_system": {
+        "id": "ess-evs-5-5-0-0",
+        "slug": "ess-evs-5-5-0-0",
+        "name": "EVS 5.5.0.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-02-11",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-5500",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "TN",
+      "name": "Tennessee",
+      "has_state_cert_requirement": true,
+      "primary_system_id": "ess-evs-6-0-4-0",
+      "jurisdiction_count": 95,
+      "primary_system": {
+        "id": "ess-evs-6-0-4-0",
+        "slug": "ess-evs-6-0-4-0",
+        "name": "EVS 6.0.4.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-09-12",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "TX",
+      "name": "Texas",
+      "has_state_cert_requirement": true,
+      "primary_system_id": "ess-evs-6-1-2-0",
+      "jurisdiction_count": 254,
+      "primary_system": {
+        "id": "ess-evs-6-1-2-0",
+        "slug": "ess-evs-6-1-2-0",
+        "name": "EVS 6.1.2.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-11-09",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6120",
+        "advisory_notices": [
+          {
+            "date": "2025-03-04",
+            "title": "Maintenance update — DS200 firmware revision"
+          }
+        ]
+      }
+    },
+    {
+      "abbreviation": "UT",
+      "name": "Utah",
+      "has_state_cert_requirement": false,
+      "primary_system_id": "ess-evs-6-1-1-0",
+      "jurisdiction_count": 29,
+      "primary_system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "VT",
+      "name": "Vermont",
+      "has_state_cert_requirement": false,
+      "primary_system_id": "dominion-democracy-suite-5-15",
+      "jurisdiction_count": 14,
+      "primary_system": {
+        "id": "dominion-democracy-suite-5-15",
+        "slug": "dominion-democracy-suite-5-15",
+        "name": "Democracy Suite 5.15",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-01-18",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-515",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "VA",
+      "name": "Virginia",
+      "has_state_cert_requirement": true,
+      "primary_system_id": "ess-evs-6-1-2-0",
+      "jurisdiction_count": 133,
+      "primary_system": {
+        "id": "ess-evs-6-1-2-0",
+        "slug": "ess-evs-6-1-2-0",
+        "name": "EVS 6.1.2.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-11-09",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6120",
+        "advisory_notices": [
+          {
+            "date": "2025-03-04",
+            "title": "Maintenance update — DS200 firmware revision"
+          }
+        ]
+      }
+    },
+    {
+      "abbreviation": "WA",
+      "name": "Washington",
+      "has_state_cert_requirement": true,
+      "primary_system_id": "hart-verity-2-5",
+      "jurisdiction_count": 39,
+      "primary_system": {
+        "id": "hart-verity-2-5",
+        "slug": "hart-verity-2-5",
+        "name": "Verity Voting 2.5",
+        "manufacturer": "Hart InterCivic",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-05-20",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-25",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "WV",
+      "name": "West Virginia",
+      "has_state_cert_requirement": true,
+      "primary_system_id": "ess-evs-6-0-4-0",
+      "jurisdiction_count": 55,
+      "primary_system": {
+        "id": "ess-evs-6-0-4-0",
+        "slug": "ess-evs-6-0-4-0",
+        "name": "EVS 6.0.4.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-09-12",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "WI",
+      "name": "Wisconsin",
+      "has_state_cert_requirement": true,
+      "primary_system_id": "ess-evs-6-1-1-0",
+      "jurisdiction_count": 72,
+      "primary_system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "abbreviation": "WY",
+      "name": "Wyoming",
+      "has_state_cert_requirement": true,
+      "primary_system_id": null,
+      "jurisdiction_count": 23,
+      "notes": "State-certified only; no EAC-certified primary.",
+      "primary_system": null
+    }
+  ],
+  "jurisdictions": [
+    {
+      "fips_code": "01073",
+      "name": "Jefferson County",
+      "state": "AL",
+      "system_id": "ess-evs-6-1-1-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "01097",
+      "name": "Mobile County",
+      "state": "AL",
+      "system_id": "ess-evs-6-1-1-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "01101",
+      "name": "Montgomery County",
+      "state": "AL",
+      "system_id": "ess-evs-6-1-1-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "01125",
+      "name": "Tuscaloosa County",
+      "state": "AL",
+      "system_id": "ess-evs-6-1-1-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "02020",
+      "name": "Anchorage Municipality",
+      "state": "AK",
+      "system_id": "dominion-democracy-suite-5-15",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-15",
+        "slug": "dominion-democracy-suite-5-15",
+        "name": "Democracy Suite 5.15",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-01-18",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-515",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "02090",
+      "name": "Fairbanks North Star",
+      "state": "AK",
+      "system_id": "dominion-democracy-suite-5-15",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-15",
+        "slug": "dominion-democracy-suite-5-15",
+        "name": "Democracy Suite 5.15",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-01-18",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-515",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "02110",
+      "name": "Juneau City and Borough",
+      "state": "AK",
+      "system_id": "dominion-democracy-suite-5-15",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-15",
+        "slug": "dominion-democracy-suite-5-15",
+        "name": "Democracy Suite 5.15",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-01-18",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-515",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "04013",
+      "name": "Maricopa County",
+      "state": "AZ",
+      "system_id": "dominion-democracy-suite-5-17",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-17",
+        "slug": "dominion-democracy-suite-5-17",
+        "name": "Democracy Suite 5.17",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2023-06-30",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "04019",
+      "name": "Pima County",
+      "state": "AZ",
+      "system_id": "dominion-democracy-suite-5-17",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-17",
+        "slug": "dominion-democracy-suite-5-17",
+        "name": "Democracy Suite 5.17",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2023-06-30",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "04021",
+      "name": "Pinal County",
+      "state": "AZ",
+      "system_id": "dominion-democracy-suite-5-17",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-17",
+        "slug": "dominion-democracy-suite-5-17",
+        "name": "Democracy Suite 5.17",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2023-06-30",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "04025",
+      "name": "Yavapai County",
+      "state": "AZ",
+      "system_id": "ess-evs-6-1-2-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-2-0",
+        "slug": "ess-evs-6-1-2-0",
+        "name": "EVS 6.1.2.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-11-09",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6120",
+        "advisory_notices": [
+          {
+            "date": "2025-03-04",
+            "title": "Maintenance update — DS200 firmware revision"
+          }
+        ]
+      }
+    },
+    {
+      "fips_code": "05119",
+      "name": "Pulaski County",
+      "state": "AR",
+      "system_id": "ess-evs-6-1-1-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "05143",
+      "name": "Washington County",
+      "state": "AR",
+      "system_id": "ess-evs-6-1-1-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "05007",
+      "name": "Benton County",
+      "state": "AR",
+      "system_id": "ess-evs-6-1-1-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "06037",
+      "name": "Los Angeles County",
+      "state": "CA",
+      "system_id": "dominion-democracy-suite-5-17",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-17",
+        "slug": "dominion-democracy-suite-5-17",
+        "name": "Democracy Suite 5.17",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2023-06-30",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "06073",
+      "name": "San Diego County",
+      "state": "CA",
+      "system_id": "dominion-democracy-suite-5-17",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-17",
+        "slug": "dominion-democracy-suite-5-17",
+        "name": "Democracy Suite 5.17",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2023-06-30",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "06059",
+      "name": "Orange County",
+      "state": "CA",
+      "system_id": "hart-verity-2-5",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "hart-verity-2-5",
+        "slug": "hart-verity-2-5",
+        "name": "Verity Voting 2.5",
+        "manufacturer": "Hart InterCivic",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-05-20",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-25",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "06075",
+      "name": "San Francisco County",
+      "state": "CA",
+      "system_id": "dominion-democracy-suite-5-17",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-17",
+        "slug": "dominion-democracy-suite-5-17",
+        "name": "Democracy Suite 5.17",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2023-06-30",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "06085",
+      "name": "Santa Clara County",
+      "state": "CA",
+      "system_id": "dominion-democracy-suite-5-15",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-15",
+        "slug": "dominion-democracy-suite-5-15",
+        "name": "Democracy Suite 5.15",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-01-18",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-515",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "08031",
+      "name": "Denver County",
+      "state": "CO",
+      "system_id": "dominion-democracy-suite-5-17",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-17",
+        "slug": "dominion-democracy-suite-5-17",
+        "name": "Democracy Suite 5.17",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2023-06-30",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "08005",
+      "name": "Arapahoe County",
+      "state": "CO",
+      "system_id": "dominion-democracy-suite-5-17",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-17",
+        "slug": "dominion-democracy-suite-5-17",
+        "name": "Democracy Suite 5.17",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2023-06-30",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "08001",
+      "name": "Adams County",
+      "state": "CO",
+      "system_id": "dominion-democracy-suite-5-17",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-17",
+        "slug": "dominion-democracy-suite-5-17",
+        "name": "Democracy Suite 5.17",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2023-06-30",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "08041",
+      "name": "El Paso County",
+      "state": "CO",
+      "system_id": "clear-ballot-clearvote-2-3",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "clear-ballot-clearvote-2-3",
+        "slug": "clear-ballot-clearvote-2-3",
+        "name": "ClearVote 2.3",
+        "manufacturer": "Clear Ballot Group",
+        "vvsg_version": "1.0",
+        "cert_date": "2023-02-14",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/clearvote-23",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "09003",
+      "name": "Hartford County",
+      "state": "CT",
+      "system_id": "dominion-democracy-suite-5-15",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-15",
+        "slug": "dominion-democracy-suite-5-15",
+        "name": "Democracy Suite 5.15",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-01-18",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-515",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "09009",
+      "name": "New Haven County",
+      "state": "CT",
+      "system_id": "dominion-democracy-suite-5-15",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-15",
+        "slug": "dominion-democracy-suite-5-15",
+        "name": "Democracy Suite 5.15",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-01-18",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-515",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "09001",
+      "name": "Fairfield County",
+      "state": "CT",
+      "system_id": "dominion-democracy-suite-5-15",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-15",
+        "slug": "dominion-democracy-suite-5-15",
+        "name": "Democracy Suite 5.15",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-01-18",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-515",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "10003",
+      "name": "New Castle County",
+      "state": "DE",
+      "system_id": "ess-evs-6-1-1-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "10001",
+      "name": "Kent County",
+      "state": "DE",
+      "system_id": "ess-evs-6-1-1-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "10005",
+      "name": "Sussex County",
+      "state": "DE",
+      "system_id": "ess-evs-6-1-1-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "11001",
+      "name": "District of Columbia",
+      "state": "DC",
+      "system_id": "dominion-democracy-suite-5-13",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-13",
+        "slug": "dominion-democracy-suite-5-13",
+        "name": "Democracy Suite 5.13",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-08-09",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-513",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "12086",
+      "name": "Miami-Dade County",
+      "state": "FL",
+      "system_id": "ess-evs-6-1-2-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-2-0",
+        "slug": "ess-evs-6-1-2-0",
+        "name": "EVS 6.1.2.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-11-09",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6120",
+        "advisory_notices": [
+          {
+            "date": "2025-03-04",
+            "title": "Maintenance update — DS200 firmware revision"
+          }
+        ]
+      }
+    },
+    {
+      "fips_code": "12011",
+      "name": "Broward County",
+      "state": "FL",
+      "system_id": "ess-evs-6-1-2-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-2-0",
+        "slug": "ess-evs-6-1-2-0",
+        "name": "EVS 6.1.2.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-11-09",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6120",
+        "advisory_notices": [
+          {
+            "date": "2025-03-04",
+            "title": "Maintenance update — DS200 firmware revision"
+          }
+        ]
+      }
+    },
+    {
+      "fips_code": "12099",
+      "name": "Palm Beach County",
+      "state": "FL",
+      "system_id": "ess-evs-6-1-2-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-2-0",
+        "slug": "ess-evs-6-1-2-0",
+        "name": "EVS 6.1.2.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-11-09",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6120",
+        "advisory_notices": [
+          {
+            "date": "2025-03-04",
+            "title": "Maintenance update — DS200 firmware revision"
+          }
+        ]
+      }
+    },
+    {
+      "fips_code": "12095",
+      "name": "Orange County",
+      "state": "FL",
+      "system_id": "dominion-democracy-suite-5-15",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-15",
+        "slug": "dominion-democracy-suite-5-15",
+        "name": "Democracy Suite 5.15",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-01-18",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-515",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "12057",
+      "name": "Hillsborough County",
+      "state": "FL",
+      "system_id": "ess-evs-6-1-2-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-2-0",
+        "slug": "ess-evs-6-1-2-0",
+        "name": "EVS 6.1.2.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-11-09",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6120",
+        "advisory_notices": [
+          {
+            "date": "2025-03-04",
+            "title": "Maintenance update — DS200 firmware revision"
+          }
+        ]
+      }
+    },
+    {
+      "fips_code": "12031",
+      "name": "Duval County",
+      "state": "FL",
+      "system_id": "ess-evs-6-1-2-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-2-0",
+        "slug": "ess-evs-6-1-2-0",
+        "name": "EVS 6.1.2.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-11-09",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6120",
+        "advisory_notices": [
+          {
+            "date": "2025-03-04",
+            "title": "Maintenance update — DS200 firmware revision"
+          }
+        ]
+      }
+    },
+    {
+      "fips_code": "13121",
+      "name": "Fulton County",
+      "state": "GA",
+      "system_id": "dominion-democracy-suite-5-17",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-17",
+        "slug": "dominion-democracy-suite-5-17",
+        "name": "Democracy Suite 5.17",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2023-06-30",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "13089",
+      "name": "DeKalb County",
+      "state": "GA",
+      "system_id": "dominion-democracy-suite-5-17",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-17",
+        "slug": "dominion-democracy-suite-5-17",
+        "name": "Democracy Suite 5.17",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2023-06-30",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "13135",
+      "name": "Gwinnett County",
+      "state": "GA",
+      "system_id": "dominion-democracy-suite-5-17",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-17",
+        "slug": "dominion-democracy-suite-5-17",
+        "name": "Democracy Suite 5.17",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2023-06-30",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "13067",
+      "name": "Cobb County",
+      "state": "GA",
+      "system_id": "dominion-democracy-suite-5-17",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-17",
+        "slug": "dominion-democracy-suite-5-17",
+        "name": "Democracy Suite 5.17",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2023-06-30",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "13063",
+      "name": "Clayton County",
+      "state": "GA",
+      "system_id": "dominion-democracy-suite-5-17",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-17",
+        "slug": "dominion-democracy-suite-5-17",
+        "name": "Democracy Suite 5.17",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2023-06-30",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "15003",
+      "name": "Honolulu County",
+      "state": "HI",
+      "system_id": "hart-verity-2-5",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "hart-verity-2-5",
+        "slug": "hart-verity-2-5",
+        "name": "Verity Voting 2.5",
+        "manufacturer": "Hart InterCivic",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-05-20",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-25",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "15009",
+      "name": "Maui County",
+      "state": "HI",
+      "system_id": "hart-verity-2-5",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "hart-verity-2-5",
+        "slug": "hart-verity-2-5",
+        "name": "Verity Voting 2.5",
+        "manufacturer": "Hart InterCivic",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-05-20",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-25",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "15001",
+      "name": "Hawaii County",
+      "state": "HI",
+      "system_id": "hart-verity-2-5",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "hart-verity-2-5",
+        "slug": "hart-verity-2-5",
+        "name": "Verity Voting 2.5",
+        "manufacturer": "Hart InterCivic",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-05-20",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-25",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "16001",
+      "name": "Ada County",
+      "state": "ID",
+      "system_id": "ess-evs-6-0-4-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-0-4-0",
+        "slug": "ess-evs-6-0-4-0",
+        "name": "EVS 6.0.4.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-09-12",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "16027",
+      "name": "Canyon County",
+      "state": "ID",
+      "system_id": "ess-evs-6-0-4-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-0-4-0",
+        "slug": "ess-evs-6-0-4-0",
+        "name": "EVS 6.0.4.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-09-12",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "16019",
+      "name": "Bonneville County",
+      "state": "ID",
+      "system_id": "ess-evs-6-0-4-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-0-4-0",
+        "slug": "ess-evs-6-0-4-0",
+        "name": "EVS 6.0.4.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-09-12",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "17031",
+      "name": "Cook County",
+      "state": "IL",
+      "system_id": "ess-evs-6-1-1-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "17043",
+      "name": "DuPage County",
+      "state": "IL",
+      "system_id": "ess-evs-6-1-1-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "17089",
+      "name": "Kane County",
+      "state": "IL",
+      "system_id": "ess-evs-6-1-1-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "17097",
+      "name": "Lake County",
+      "state": "IL",
+      "system_id": "dominion-democracy-suite-5-15",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-15",
+        "slug": "dominion-democracy-suite-5-15",
+        "name": "Democracy Suite 5.15",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-01-18",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-515",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "18097",
+      "name": "Marion County",
+      "state": "IN",
+      "system_id": "microvote-infinity-4-1",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "microvote-infinity-4-1",
+        "slug": "microvote-infinity-4-1",
+        "name": "Infinity Voting Panel 4.1",
+        "manufacturer": "MicroVote General",
+        "vvsg_version": "1.0",
+        "cert_date": "2018-04-12",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/infinity-41",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "18089",
+      "name": "Lake County",
+      "state": "IN",
+      "system_id": "ess-evs-6-1-1-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "18057",
+      "name": "Hamilton County",
+      "state": "IN",
+      "system_id": "microvote-infinity-4-1",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "microvote-infinity-4-1",
+        "slug": "microvote-infinity-4-1",
+        "name": "Infinity Voting Panel 4.1",
+        "manufacturer": "MicroVote General",
+        "vvsg_version": "1.0",
+        "cert_date": "2018-04-12",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/infinity-41",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "18141",
+      "name": "St. Joseph County",
+      "state": "IN",
+      "system_id": "hart-verity-2-4",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "hart-verity-2-4",
+        "slug": "hart-verity-2-4",
+        "name": "Verity Voting 2.4",
+        "manufacturer": "Hart InterCivic",
+        "vvsg_version": "1.0",
+        "cert_date": "2020-07-17",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-24",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "19153",
+      "name": "Polk County",
+      "state": "IA",
+      "system_id": "hart-verity-2-6",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "hart-verity-2-6",
+        "slug": "hart-verity-2-6",
+        "name": "Verity Voting 2.6",
+        "manufacturer": "Hart InterCivic",
+        "vvsg_version": "2.0",
+        "cert_date": "2024-03-22",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-26",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "19113",
+      "name": "Linn County",
+      "state": "IA",
+      "system_id": "hart-verity-2-6",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "hart-verity-2-6",
+        "slug": "hart-verity-2-6",
+        "name": "Verity Voting 2.6",
+        "manufacturer": "Hart InterCivic",
+        "vvsg_version": "2.0",
+        "cert_date": "2024-03-22",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-26",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "19163",
+      "name": "Scott County",
+      "state": "IA",
+      "system_id": "hart-verity-2-6",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "hart-verity-2-6",
+        "slug": "hart-verity-2-6",
+        "name": "Verity Voting 2.6",
+        "manufacturer": "Hart InterCivic",
+        "vvsg_version": "2.0",
+        "cert_date": "2024-03-22",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-26",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "19103",
+      "name": "Johnson County",
+      "state": "IA",
+      "system_id": "hart-verity-2-6",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "hart-verity-2-6",
+        "slug": "hart-verity-2-6",
+        "name": "Verity Voting 2.6",
+        "manufacturer": "Hart InterCivic",
+        "vvsg_version": "2.0",
+        "cert_date": "2024-03-22",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-26",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "20091",
+      "name": "Johnson County",
+      "state": "KS",
+      "system_id": "ess-evs-6-1-1-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "20173",
+      "name": "Sedgwick County",
+      "state": "KS",
+      "system_id": "ess-evs-6-1-1-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "20177",
+      "name": "Shawnee County",
+      "state": "KS",
+      "system_id": "ess-evs-6-1-1-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "21111",
+      "name": "Jefferson County",
+      "state": "KY",
+      "system_id": "ess-evs-6-0-4-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-0-4-0",
+        "slug": "ess-evs-6-0-4-0",
+        "name": "EVS 6.0.4.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-09-12",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "21067",
+      "name": "Fayette County",
+      "state": "KY",
+      "system_id": "ess-evs-6-0-4-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-0-4-0",
+        "slug": "ess-evs-6-0-4-0",
+        "name": "EVS 6.0.4.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-09-12",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "21037",
+      "name": "Campbell County",
+      "state": "KY",
+      "system_id": "ess-evs-6-0-4-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-0-4-0",
+        "slug": "ess-evs-6-0-4-0",
+        "name": "EVS 6.0.4.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-09-12",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "22033",
+      "name": "East Baton Rouge",
+      "state": "LA",
+      "system_id": null,
+      "system_name_raw": "State-certified equipment (non-EAC)",
+      "source": "state_certified",
+      "system": null
+    },
+    {
+      "fips_code": "22071",
+      "name": "Orleans Parish",
+      "state": "LA",
+      "system_id": null,
+      "system_name_raw": "State-certified equipment (non-EAC)",
+      "source": "state_certified",
+      "system": null
+    },
+    {
+      "fips_code": "22051",
+      "name": "Jefferson Parish",
+      "state": "LA",
+      "system_id": null,
+      "system_name_raw": "State-certified equipment (non-EAC)",
+      "source": "state_certified",
+      "system": null
+    },
+    {
+      "fips_code": "23005",
+      "name": "Cumberland County",
+      "state": "ME",
+      "system_id": "dominion-democracy-suite-5-5-a",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-5-a",
+        "slug": "dominion-democracy-suite-5-5-a",
+        "name": "Democracy Suite 5.5-A",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2018-12-13",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-55a",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "23031",
+      "name": "York County",
+      "state": "ME",
+      "system_id": "dominion-democracy-suite-5-5-a",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-5-a",
+        "slug": "dominion-democracy-suite-5-5-a",
+        "name": "Democracy Suite 5.5-A",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2018-12-13",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-55a",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "23019",
+      "name": "Penobscot County",
+      "state": "ME",
+      "system_id": "dominion-democracy-suite-5-5-a",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-5-a",
+        "slug": "dominion-democracy-suite-5-5-a",
+        "name": "Democracy Suite 5.5-A",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2018-12-13",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-55a",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "24031",
+      "name": "Montgomery County",
+      "state": "MD",
+      "system_id": "ess-evs-6-1-2-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-2-0",
+        "slug": "ess-evs-6-1-2-0",
+        "name": "EVS 6.1.2.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-11-09",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6120",
+        "advisory_notices": [
+          {
+            "date": "2025-03-04",
+            "title": "Maintenance update — DS200 firmware revision"
+          }
+        ]
+      }
+    },
+    {
+      "fips_code": "24033",
+      "name": "Prince George's County",
+      "state": "MD",
+      "system_id": "ess-evs-6-1-2-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-2-0",
+        "slug": "ess-evs-6-1-2-0",
+        "name": "EVS 6.1.2.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-11-09",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6120",
+        "advisory_notices": [
+          {
+            "date": "2025-03-04",
+            "title": "Maintenance update — DS200 firmware revision"
+          }
+        ]
+      }
+    },
+    {
+      "fips_code": "24005",
+      "name": "Baltimore County",
+      "state": "MD",
+      "system_id": "ess-evs-6-1-2-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-2-0",
+        "slug": "ess-evs-6-1-2-0",
+        "name": "EVS 6.1.2.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-11-09",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6120",
+        "advisory_notices": [
+          {
+            "date": "2025-03-04",
+            "title": "Maintenance update — DS200 firmware revision"
+          }
+        ]
+      }
+    },
+    {
+      "fips_code": "24510",
+      "name": "Baltimore City",
+      "state": "MD",
+      "system_id": "ess-evs-6-1-2-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-2-0",
+        "slug": "ess-evs-6-1-2-0",
+        "name": "EVS 6.1.2.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-11-09",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6120",
+        "advisory_notices": [
+          {
+            "date": "2025-03-04",
+            "title": "Maintenance update — DS200 firmware revision"
+          }
+        ]
+      }
+    },
+    {
+      "fips_code": "25025",
+      "name": "Suffolk County",
+      "state": "MA",
+      "system_id": "ess-evs-5-5-0-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-5-5-0-0",
+        "slug": "ess-evs-5-5-0-0",
+        "name": "EVS 5.5.0.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-02-11",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-5500",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "25017",
+      "name": "Middlesex County",
+      "state": "MA",
+      "system_id": "ess-evs-5-5-0-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-5-5-0-0",
+        "slug": "ess-evs-5-5-0-0",
+        "name": "EVS 5.5.0.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-02-11",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-5500",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "25027",
+      "name": "Worcester County",
+      "state": "MA",
+      "system_id": "ess-evs-5-5-0-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-5-5-0-0",
+        "slug": "ess-evs-5-5-0-0",
+        "name": "EVS 5.5.0.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-02-11",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-5500",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "26163",
+      "name": "Wayne County",
+      "state": "MI",
+      "system_id": "dominion-democracy-suite-5-13",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-13",
+        "slug": "dominion-democracy-suite-5-13",
+        "name": "Democracy Suite 5.13",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-08-09",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-513",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "26125",
+      "name": "Oakland County",
+      "state": "MI",
+      "system_id": "ess-evs-6-0-4-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-0-4-0",
+        "slug": "ess-evs-6-0-4-0",
+        "name": "EVS 6.0.4.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-09-12",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "26099",
+      "name": "Macomb County",
+      "state": "MI",
+      "system_id": "hart-verity-2-4",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "hart-verity-2-4",
+        "slug": "hart-verity-2-4",
+        "name": "Verity Voting 2.4",
+        "manufacturer": "Hart InterCivic",
+        "vvsg_version": "1.0",
+        "cert_date": "2020-07-17",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-24",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "26049",
+      "name": "Genesee County",
+      "state": "MI",
+      "system_id": "ess-evs-6-0-4-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-0-4-0",
+        "slug": "ess-evs-6-0-4-0",
+        "name": "EVS 6.0.4.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-09-12",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "27053",
+      "name": "Hennepin County",
+      "state": "MN",
+      "system_id": "ess-evs-6-0-4-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-0-4-0",
+        "slug": "ess-evs-6-0-4-0",
+        "name": "EVS 6.0.4.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-09-12",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "27123",
+      "name": "Ramsey County",
+      "state": "MN",
+      "system_id": "ess-evs-6-0-4-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-0-4-0",
+        "slug": "ess-evs-6-0-4-0",
+        "name": "EVS 6.0.4.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-09-12",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "27037",
+      "name": "Dakota County",
+      "state": "MN",
+      "system_id": "ess-evs-6-0-4-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-0-4-0",
+        "slug": "ess-evs-6-0-4-0",
+        "name": "EVS 6.0.4.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-09-12",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "28049",
+      "name": "Hinds County",
+      "state": "MS",
+      "system_id": "ess-evs-5-5-0-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-5-5-0-0",
+        "slug": "ess-evs-5-5-0-0",
+        "name": "EVS 5.5.0.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-02-11",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-5500",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "28033",
+      "name": "DeSoto County",
+      "state": "MS",
+      "system_id": "ess-evs-5-5-0-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-5-5-0-0",
+        "slug": "ess-evs-5-5-0-0",
+        "name": "EVS 5.5.0.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-02-11",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-5500",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "28047",
+      "name": "Harrison County",
+      "state": "MS",
+      "system_id": "ess-evs-5-5-0-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-5-5-0-0",
+        "slug": "ess-evs-5-5-0-0",
+        "name": "EVS 5.5.0.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-02-11",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-5500",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "29189",
+      "name": "St. Louis County",
+      "state": "MO",
+      "system_id": "ess-evs-6-0-4-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-0-4-0",
+        "slug": "ess-evs-6-0-4-0",
+        "name": "EVS 6.0.4.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-09-12",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "29095",
+      "name": "Jackson County",
+      "state": "MO",
+      "system_id": "ess-evs-6-0-4-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-0-4-0",
+        "slug": "ess-evs-6-0-4-0",
+        "name": "EVS 6.0.4.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-09-12",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "29077",
+      "name": "Greene County",
+      "state": "MO",
+      "system_id": "unisyn-openelect-2-1",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "unisyn-openelect-2-1",
+        "slug": "unisyn-openelect-2-1",
+        "name": "OpenElect 2.1",
+        "manufacturer": "Unisyn Voting Solutions",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-09-30",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/openelect-21",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "30111",
+      "name": "Yellowstone County",
+      "state": "MT",
+      "system_id": "ess-evs-5-5-0-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-5-5-0-0",
+        "slug": "ess-evs-5-5-0-0",
+        "name": "EVS 5.5.0.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-02-11",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-5500",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "30063",
+      "name": "Missoula County",
+      "state": "MT",
+      "system_id": "ess-evs-5-5-0-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-5-5-0-0",
+        "slug": "ess-evs-5-5-0-0",
+        "name": "EVS 5.5.0.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-02-11",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-5500",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "30031",
+      "name": "Gallatin County",
+      "state": "MT",
+      "system_id": "ess-evs-5-5-0-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-5-5-0-0",
+        "slug": "ess-evs-5-5-0-0",
+        "name": "EVS 5.5.0.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-02-11",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-5500",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "31055",
+      "name": "Douglas County",
+      "state": "NE",
+      "system_id": "ess-evs-6-1-1-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "31109",
+      "name": "Lancaster County",
+      "state": "NE",
+      "system_id": "ess-evs-6-1-1-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "31153",
+      "name": "Sarpy County",
+      "state": "NE",
+      "system_id": "ess-evs-6-1-1-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "32003",
+      "name": "Clark County",
+      "state": "NV",
+      "system_id": "dominion-democracy-suite-5-17",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-17",
+        "slug": "dominion-democracy-suite-5-17",
+        "name": "Democracy Suite 5.17",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2023-06-30",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "32031",
+      "name": "Washoe County",
+      "state": "NV",
+      "system_id": "dominion-democracy-suite-5-17",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-17",
+        "slug": "dominion-democracy-suite-5-17",
+        "name": "Democracy Suite 5.17",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2023-06-30",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "33011",
+      "name": "Hillsborough County",
+      "state": "NH",
+      "system_id": "dominion-democracy-suite-5-5-a",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-5-a",
+        "slug": "dominion-democracy-suite-5-5-a",
+        "name": "Democracy Suite 5.5-A",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2018-12-13",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-55a",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "33015",
+      "name": "Rockingham County",
+      "state": "NH",
+      "system_id": "dominion-democracy-suite-5-5-a",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-5-a",
+        "slug": "dominion-democracy-suite-5-5-a",
+        "name": "Democracy Suite 5.5-A",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2018-12-13",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-55a",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "34003",
+      "name": "Bergen County",
+      "state": "NJ",
+      "system_id": "dominion-democracy-suite-5-13",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-13",
+        "slug": "dominion-democracy-suite-5-13",
+        "name": "Democracy Suite 5.13",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-08-09",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-513",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "34013",
+      "name": "Essex County",
+      "state": "NJ",
+      "system_id": "ess-evs-6-1-1-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "34023",
+      "name": "Middlesex County",
+      "state": "NJ",
+      "system_id": "dominion-democracy-suite-5-13",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-13",
+        "slug": "dominion-democracy-suite-5-13",
+        "name": "Democracy Suite 5.13",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-08-09",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-513",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "35001",
+      "name": "Bernalillo County",
+      "state": "NM",
+      "system_id": "dominion-democracy-suite-5-17",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-17",
+        "slug": "dominion-democracy-suite-5-17",
+        "name": "Democracy Suite 5.17",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2023-06-30",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "35049",
+      "name": "Santa Fe County",
+      "state": "NM",
+      "system_id": "dominion-democracy-suite-5-17",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-17",
+        "slug": "dominion-democracy-suite-5-17",
+        "name": "Democracy Suite 5.17",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2023-06-30",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "35013",
+      "name": "Doña Ana County",
+      "state": "NM",
+      "system_id": "dominion-democracy-suite-5-17",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-17",
+        "slug": "dominion-democracy-suite-5-17",
+        "name": "Democracy Suite 5.17",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2023-06-30",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "36061",
+      "name": "New York County",
+      "state": "NY",
+      "system_id": "ess-evs-6-1-1-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "36047",
+      "name": "Kings County",
+      "state": "NY",
+      "system_id": "ess-evs-6-1-1-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "36081",
+      "name": "Queens County",
+      "state": "NY",
+      "system_id": "ess-evs-6-1-1-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "36005",
+      "name": "Bronx County",
+      "state": "NY",
+      "system_id": "ess-evs-6-1-1-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "36029",
+      "name": "Erie County",
+      "state": "NY",
+      "system_id": "dominion-democracy-suite-5-13",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-13",
+        "slug": "dominion-democracy-suite-5-13",
+        "name": "Democracy Suite 5.13",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-08-09",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-513",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "37119",
+      "name": "Mecklenburg County",
+      "state": "NC",
+      "system_id": "ess-evs-6-1-2-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-2-0",
+        "slug": "ess-evs-6-1-2-0",
+        "name": "EVS 6.1.2.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-11-09",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6120",
+        "advisory_notices": [
+          {
+            "date": "2025-03-04",
+            "title": "Maintenance update — DS200 firmware revision"
+          }
+        ]
+      }
+    },
+    {
+      "fips_code": "37183",
+      "name": "Wake County",
+      "state": "NC",
+      "system_id": "ess-evs-6-1-2-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-2-0",
+        "slug": "ess-evs-6-1-2-0",
+        "name": "EVS 6.1.2.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-11-09",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6120",
+        "advisory_notices": [
+          {
+            "date": "2025-03-04",
+            "title": "Maintenance update — DS200 firmware revision"
+          }
+        ]
+      }
+    },
+    {
+      "fips_code": "37067",
+      "name": "Forsyth County",
+      "state": "NC",
+      "system_id": "ess-evs-6-1-2-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-2-0",
+        "slug": "ess-evs-6-1-2-0",
+        "name": "EVS 6.1.2.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-11-09",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6120",
+        "advisory_notices": [
+          {
+            "date": "2025-03-04",
+            "title": "Maintenance update — DS200 firmware revision"
+          }
+        ]
+      }
+    },
+    {
+      "fips_code": "38017",
+      "name": "Cass County",
+      "state": "ND",
+      "system_id": "ess-evs-6-0-4-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-0-4-0",
+        "slug": "ess-evs-6-0-4-0",
+        "name": "EVS 6.0.4.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-09-12",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "38035",
+      "name": "Grand Forks",
+      "state": "ND",
+      "system_id": "ess-evs-6-0-4-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-0-4-0",
+        "slug": "ess-evs-6-0-4-0",
+        "name": "EVS 6.0.4.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-09-12",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "39035",
+      "name": "Cuyahoga County",
+      "state": "OH",
+      "system_id": "dominion-democracy-suite-5-13",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-13",
+        "slug": "dominion-democracy-suite-5-13",
+        "name": "Democracy Suite 5.13",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-08-09",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-513",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "39049",
+      "name": "Franklin County",
+      "state": "OH",
+      "system_id": "ess-evs-6-0-4-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-0-4-0",
+        "slug": "ess-evs-6-0-4-0",
+        "name": "EVS 6.0.4.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-09-12",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "39061",
+      "name": "Hamilton County",
+      "state": "OH",
+      "system_id": "hart-verity-2-4",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "hart-verity-2-4",
+        "slug": "hart-verity-2-4",
+        "name": "Verity Voting 2.4",
+        "manufacturer": "Hart InterCivic",
+        "vvsg_version": "1.0",
+        "cert_date": "2020-07-17",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-24",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "39153",
+      "name": "Summit County",
+      "state": "OH",
+      "system_id": "ess-evs-6-0-4-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-0-4-0",
+        "slug": "ess-evs-6-0-4-0",
+        "name": "EVS 6.0.4.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-09-12",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "40109",
+      "name": "Oklahoma County",
+      "state": "OK",
+      "system_id": "hart-verity-2-4",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "hart-verity-2-4",
+        "slug": "hart-verity-2-4",
+        "name": "Verity Voting 2.4",
+        "manufacturer": "Hart InterCivic",
+        "vvsg_version": "1.0",
+        "cert_date": "2020-07-17",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-24",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "40143",
+      "name": "Tulsa County",
+      "state": "OK",
+      "system_id": "hart-verity-2-4",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "hart-verity-2-4",
+        "slug": "hart-verity-2-4",
+        "name": "Verity Voting 2.4",
+        "manufacturer": "Hart InterCivic",
+        "vvsg_version": "1.0",
+        "cert_date": "2020-07-17",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-24",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "40027",
+      "name": "Cleveland County",
+      "state": "OK",
+      "system_id": "hart-verity-2-4",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "hart-verity-2-4",
+        "slug": "hart-verity-2-4",
+        "name": "Verity Voting 2.4",
+        "manufacturer": "Hart InterCivic",
+        "vvsg_version": "1.0",
+        "cert_date": "2020-07-17",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-24",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "41051",
+      "name": "Multnomah County",
+      "state": "OR",
+      "system_id": "hart-verity-2-3",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "hart-verity-2-3",
+        "slug": "hart-verity-2-3",
+        "name": "Verity Voting 2.3",
+        "manufacturer": "Hart InterCivic",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-02-21",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-23",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "41067",
+      "name": "Washington County",
+      "state": "OR",
+      "system_id": "hart-verity-2-3",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "hart-verity-2-3",
+        "slug": "hart-verity-2-3",
+        "name": "Verity Voting 2.3",
+        "manufacturer": "Hart InterCivic",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-02-21",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-23",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "41005",
+      "name": "Clackamas County",
+      "state": "OR",
+      "system_id": "hart-verity-2-3",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "hart-verity-2-3",
+        "slug": "hart-verity-2-3",
+        "name": "Verity Voting 2.3",
+        "manufacturer": "Hart InterCivic",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-02-21",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-23",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "42101",
+      "name": "Philadelphia County",
+      "state": "PA",
+      "system_id": "ess-evs-6-1-1-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "42003",
+      "name": "Allegheny County",
+      "state": "PA",
+      "system_id": "ess-evs-6-1-1-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "42091",
+      "name": "Montgomery County",
+      "state": "PA",
+      "system_id": "dominion-democracy-suite-5-13",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-13",
+        "slug": "dominion-democracy-suite-5-13",
+        "name": "Democracy Suite 5.13",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-08-09",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-513",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "42029",
+      "name": "Chester County",
+      "state": "PA",
+      "system_id": "hart-verity-2-4",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "hart-verity-2-4",
+        "slug": "hart-verity-2-4",
+        "name": "Verity Voting 2.4",
+        "manufacturer": "Hart InterCivic",
+        "vvsg_version": "1.0",
+        "cert_date": "2020-07-17",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-24",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "44007",
+      "name": "Providence County",
+      "state": "RI",
+      "system_id": "ess-evs-6-0-4-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-0-4-0",
+        "slug": "ess-evs-6-0-4-0",
+        "name": "EVS 6.0.4.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-09-12",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "44003",
+      "name": "Kent County",
+      "state": "RI",
+      "system_id": "ess-evs-6-0-4-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-0-4-0",
+        "slug": "ess-evs-6-0-4-0",
+        "name": "EVS 6.0.4.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-09-12",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "45045",
+      "name": "Greenville County",
+      "state": "SC",
+      "system_id": "ess-evs-6-1-1-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "45079",
+      "name": "Richland County",
+      "state": "SC",
+      "system_id": "ess-evs-6-1-1-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "45019",
+      "name": "Charleston County",
+      "state": "SC",
+      "system_id": "ess-evs-6-1-1-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "46099",
+      "name": "Minnehaha County",
+      "state": "SD",
+      "system_id": "ess-evs-5-5-0-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-5-5-0-0",
+        "slug": "ess-evs-5-5-0-0",
+        "name": "EVS 5.5.0.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-02-11",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-5500",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "46103",
+      "name": "Pennington County",
+      "state": "SD",
+      "system_id": "ess-evs-5-5-0-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-5-5-0-0",
+        "slug": "ess-evs-5-5-0-0",
+        "name": "EVS 5.5.0.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-02-11",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-5500",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "47157",
+      "name": "Shelby County",
+      "state": "TN",
+      "system_id": "ess-evs-6-0-4-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-0-4-0",
+        "slug": "ess-evs-6-0-4-0",
+        "name": "EVS 6.0.4.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-09-12",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "47037",
+      "name": "Davidson County",
+      "state": "TN",
+      "system_id": "dominion-democracy-suite-5-15",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-15",
+        "slug": "dominion-democracy-suite-5-15",
+        "name": "Democracy Suite 5.15",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-01-18",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-515",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "47065",
+      "name": "Hamilton County",
+      "state": "TN",
+      "system_id": "ess-evs-6-0-4-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-0-4-0",
+        "slug": "ess-evs-6-0-4-0",
+        "name": "EVS 6.0.4.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-09-12",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "47093",
+      "name": "Knox County",
+      "state": "TN",
+      "system_id": "microvote-infinity-4-1",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "microvote-infinity-4-1",
+        "slug": "microvote-infinity-4-1",
+        "name": "Infinity Voting Panel 4.1",
+        "manufacturer": "MicroVote General",
+        "vvsg_version": "1.0",
+        "cert_date": "2018-04-12",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/infinity-41",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "48201",
+      "name": "Harris County",
+      "state": "TX",
+      "system_id": "hart-verity-2-5",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "hart-verity-2-5",
+        "slug": "hart-verity-2-5",
+        "name": "Verity Voting 2.5",
+        "manufacturer": "Hart InterCivic",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-05-20",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-25",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "48113",
+      "name": "Dallas County",
+      "state": "TX",
+      "system_id": "ess-evs-6-1-2-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-2-0",
+        "slug": "ess-evs-6-1-2-0",
+        "name": "EVS 6.1.2.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-11-09",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6120",
+        "advisory_notices": [
+          {
+            "date": "2025-03-04",
+            "title": "Maintenance update — DS200 firmware revision"
+          }
+        ]
+      }
+    },
+    {
+      "fips_code": "48439",
+      "name": "Tarrant County",
+      "state": "TX",
+      "system_id": "hart-verity-2-5",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "hart-verity-2-5",
+        "slug": "hart-verity-2-5",
+        "name": "Verity Voting 2.5",
+        "manufacturer": "Hart InterCivic",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-05-20",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-25",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "48029",
+      "name": "Bexar County",
+      "state": "TX",
+      "system_id": "ess-evs-6-1-2-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-2-0",
+        "slug": "ess-evs-6-1-2-0",
+        "name": "EVS 6.1.2.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-11-09",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6120",
+        "advisory_notices": [
+          {
+            "date": "2025-03-04",
+            "title": "Maintenance update — DS200 firmware revision"
+          }
+        ]
+      }
+    },
+    {
+      "fips_code": "48453",
+      "name": "Travis County",
+      "state": "TX",
+      "system_id": "hart-verity-2-5",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "hart-verity-2-5",
+        "slug": "hart-verity-2-5",
+        "name": "Verity Voting 2.5",
+        "manufacturer": "Hart InterCivic",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-05-20",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-25",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "48141",
+      "name": "El Paso County",
+      "state": "TX",
+      "system_id": "dominion-democracy-suite-5-15",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-15",
+        "slug": "dominion-democracy-suite-5-15",
+        "name": "Democracy Suite 5.15",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-01-18",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-515",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "49035",
+      "name": "Salt Lake County",
+      "state": "UT",
+      "system_id": "ess-evs-6-1-1-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "49049",
+      "name": "Utah County",
+      "state": "UT",
+      "system_id": "ess-evs-6-1-1-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "49011",
+      "name": "Davis County",
+      "state": "UT",
+      "system_id": "ess-evs-6-1-1-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "50007",
+      "name": "Chittenden County",
+      "state": "VT",
+      "system_id": "dominion-democracy-suite-5-15",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-15",
+        "slug": "dominion-democracy-suite-5-15",
+        "name": "Democracy Suite 5.15",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-01-18",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-515",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "50025",
+      "name": "Windham County",
+      "state": "VT",
+      "system_id": "dominion-democracy-suite-5-15",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-15",
+        "slug": "dominion-democracy-suite-5-15",
+        "name": "Democracy Suite 5.15",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-01-18",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-515",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "51059",
+      "name": "Fairfax County",
+      "state": "VA",
+      "system_id": "ess-evs-6-1-2-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-2-0",
+        "slug": "ess-evs-6-1-2-0",
+        "name": "EVS 6.1.2.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-11-09",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6120",
+        "advisory_notices": [
+          {
+            "date": "2025-03-04",
+            "title": "Maintenance update — DS200 firmware revision"
+          }
+        ]
+      }
+    },
+    {
+      "fips_code": "51760",
+      "name": "Richmond City",
+      "state": "VA",
+      "system_id": "ess-evs-6-1-2-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-2-0",
+        "slug": "ess-evs-6-1-2-0",
+        "name": "EVS 6.1.2.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-11-09",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6120",
+        "advisory_notices": [
+          {
+            "date": "2025-03-04",
+            "title": "Maintenance update — DS200 firmware revision"
+          }
+        ]
+      }
+    },
+    {
+      "fips_code": "51810",
+      "name": "Virginia Beach City",
+      "state": "VA",
+      "system_id": "ess-evs-6-1-2-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-2-0",
+        "slug": "ess-evs-6-1-2-0",
+        "name": "EVS 6.1.2.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-11-09",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6120",
+        "advisory_notices": [
+          {
+            "date": "2025-03-04",
+            "title": "Maintenance update — DS200 firmware revision"
+          }
+        ]
+      }
+    },
+    {
+      "fips_code": "51153",
+      "name": "Prince William County",
+      "state": "VA",
+      "system_id": "ess-evs-6-1-2-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-2-0",
+        "slug": "ess-evs-6-1-2-0",
+        "name": "EVS 6.1.2.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-11-09",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6120",
+        "advisory_notices": [
+          {
+            "date": "2025-03-04",
+            "title": "Maintenance update — DS200 firmware revision"
+          }
+        ]
+      }
+    },
+    {
+      "fips_code": "53033",
+      "name": "King County",
+      "state": "WA",
+      "system_id": "hart-verity-2-5",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "hart-verity-2-5",
+        "slug": "hart-verity-2-5",
+        "name": "Verity Voting 2.5",
+        "manufacturer": "Hart InterCivic",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-05-20",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-25",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "53053",
+      "name": "Pierce County",
+      "state": "WA",
+      "system_id": "hart-verity-2-5",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "hart-verity-2-5",
+        "slug": "hart-verity-2-5",
+        "name": "Verity Voting 2.5",
+        "manufacturer": "Hart InterCivic",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-05-20",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-25",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "53061",
+      "name": "Snohomish County",
+      "state": "WA",
+      "system_id": "hart-verity-2-5",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "hart-verity-2-5",
+        "slug": "hart-verity-2-5",
+        "name": "Verity Voting 2.5",
+        "manufacturer": "Hart InterCivic",
+        "vvsg_version": "1.0",
+        "cert_date": "2022-05-20",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-25",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "53063",
+      "name": "Spokane County",
+      "state": "WA",
+      "system_id": "clear-ballot-clearvote-2-3",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "clear-ballot-clearvote-2-3",
+        "slug": "clear-ballot-clearvote-2-3",
+        "name": "ClearVote 2.3",
+        "manufacturer": "Clear Ballot Group",
+        "vvsg_version": "1.0",
+        "cert_date": "2023-02-14",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/clearvote-23",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "54039",
+      "name": "Kanawha County",
+      "state": "WV",
+      "system_id": "ess-evs-6-0-4-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-0-4-0",
+        "slug": "ess-evs-6-0-4-0",
+        "name": "EVS 6.0.4.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-09-12",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "54003",
+      "name": "Berkeley County",
+      "state": "WV",
+      "system_id": "ess-evs-6-0-4-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-0-4-0",
+        "slug": "ess-evs-6-0-4-0",
+        "name": "EVS 6.0.4.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2019-09-12",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "55079",
+      "name": "Milwaukee County",
+      "state": "WI",
+      "system_id": "ess-evs-6-1-1-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "55025",
+      "name": "Dane County",
+      "state": "WI",
+      "system_id": "ess-evs-6-1-1-0",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "ess-evs-6-1-1-0",
+        "slug": "ess-evs-6-1-1-0",
+        "name": "EVS 6.1.1.0",
+        "manufacturer": "ES&S",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-02",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "55133",
+      "name": "Waukesha County",
+      "state": "WI",
+      "system_id": "dominion-democracy-suite-5-13",
+      "system_name_raw": null,
+      "source": "eavs_2024",
+      "system": {
+        "id": "dominion-democracy-suite-5-13",
+        "slug": "dominion-democracy-suite-5-13",
+        "name": "Democracy Suite 5.13",
+        "manufacturer": "Dominion Voting Systems",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-08-09",
+        "status": "active",
+        "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-513",
+        "advisory_notices": []
+      }
+    },
+    {
+      "fips_code": "56021",
+      "name": "Laramie County",
+      "state": "WY",
+      "system_id": null,
+      "system_name_raw": "State-certified equipment (non-EAC)",
+      "source": "state_certified",
+      "system": null
+    },
+    {
+      "fips_code": "56025",
+      "name": "Natrona County",
+      "state": "WY",
+      "system_id": null,
+      "system_name_raw": "State-certified equipment (non-EAC)",
+      "source": "state_certified",
+      "system": null
+    }
+  ]
+}

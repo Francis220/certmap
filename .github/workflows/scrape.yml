@@ -1,0 +1,61 @@
+name: Scrape EAC certifications
+
+on:
+  schedule:
+    - cron: "0 6 * * *"   # 6am UTC daily
+  workflow_dispatch:        # manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run EAC scraper
+        id: scrape
+        run: |
+          npm run scrape
+          echo "changed=false" >> "$GITHUB_OUTPUT"
+        continue-on-error: true
+
+      - name: Check if scraper found changes
+        id: result
+        run: |
+          if [ "${{ steps.scrape.outputs.changed }}" = "false" ] && [ ${{ steps.scrape.outcome }} = "failure" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Check for file changes
+        id: git_diff
+        run: |
+          if git diff --quiet src/data/systems.json src/data/changes.json; then
+            echo "has_changes=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "has_changes=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Regenerate CSV/JSON downloads
+        if: steps.git_diff.outputs.has_changes == 'true'
+        run: npm run build:data
+
+      - name: Commit and push
+        if: steps.git_diff.outputs.has_changes == 'true'
+        run: |
+          git config user.name  "certmap-bot"
+          git config user.email "certmap-bot@users.noreply.github.com"
+          git add src/data/systems.json src/data/changes.json public/certmap-data.csv public/certmap-data.json
+          git commit -m "chore: update EAC certification data [$(date -u +%Y-%m-%d)]"
+          git push

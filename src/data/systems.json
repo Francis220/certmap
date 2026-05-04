@@ -1,0 +1,194 @@
+[
+  {
+    "id": "hart-verity-2-6",
+    "slug": "hart-verity-2-6",
+    "name": "Verity Voting 2.6",
+    "manufacturer": "Hart InterCivic",
+    "vvsg_version": "2.0",
+    "cert_date": "2024-03-22",
+    "status": "active",
+    "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-26",
+    "advisory_notices": []
+  },
+  {
+    "id": "ess-evs-6-5-0-0",
+    "slug": "ess-evs-6-5-0-0",
+    "name": "EVS 6.5.0.0",
+    "manufacturer": "ES&S",
+    "vvsg_version": "1.0",
+    "cert_date": "2024-08-14",
+    "status": "active",
+    "eac_url": "https://www.eac.gov/voting-equipment/evs-6500",
+    "advisory_notices": []
+  },
+  {
+    "id": "ess-evs-6-1-2-0",
+    "slug": "ess-evs-6-1-2-0",
+    "name": "EVS 6.1.2.0",
+    "manufacturer": "ES&S",
+    "vvsg_version": "1.0",
+    "cert_date": "2022-11-09",
+    "status": "active",
+    "eac_url": "https://www.eac.gov/voting-equipment/evs-6120",
+    "advisory_notices": [
+      {
+        "date": "2025-03-04",
+        "title": "Maintenance update — DS200 firmware revision"
+      }
+    ]
+  },
+  {
+    "id": "ess-evs-6-1-1-0",
+    "slug": "ess-evs-6-1-1-0",
+    "name": "EVS 6.1.1.0",
+    "manufacturer": "ES&S",
+    "vvsg_version": "1.0",
+    "cert_date": "2021-04-02",
+    "status": "active",
+    "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
+    "advisory_notices": []
+  },
+  {
+    "id": "ess-evs-6-0-4-0",
+    "slug": "ess-evs-6-0-4-0",
+    "name": "EVS 6.0.4.0",
+    "manufacturer": "ES&S",
+    "vvsg_version": "1.0",
+    "cert_date": "2019-09-12",
+    "status": "active",
+    "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
+    "advisory_notices": []
+  },
+  {
+    "id": "ess-evs-5-5-0-0",
+    "slug": "ess-evs-5-5-0-0",
+    "name": "EVS 5.5.0.0",
+    "manufacturer": "ES&S",
+    "vvsg_version": "1.0",
+    "cert_date": "2019-02-11",
+    "status": "active",
+    "eac_url": "https://www.eac.gov/voting-equipment/evs-5500",
+    "advisory_notices": []
+  },
+  {
+    "id": "dominion-democracy-suite-5-17",
+    "slug": "dominion-democracy-suite-5-17",
+    "name": "Democracy Suite 5.17",
+    "manufacturer": "Dominion Voting Systems",
+    "vvsg_version": "1.0",
+    "cert_date": "2023-06-30",
+    "status": "active",
+    "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
+    "advisory_notices": []
+  },
+  {
+    "id": "dominion-democracy-suite-5-15",
+    "slug": "dominion-democracy-suite-5-15",
+    "name": "Democracy Suite 5.15",
+    "manufacturer": "Dominion Voting Systems",
+    "vvsg_version": "1.0",
+    "cert_date": "2022-01-18",
+    "status": "active",
+    "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-515",
+    "advisory_notices": []
+  },
+  {
+    "id": "dominion-democracy-suite-5-13",
+    "slug": "dominion-democracy-suite-5-13",
+    "name": "Democracy Suite 5.13",
+    "manufacturer": "Dominion Voting Systems",
+    "vvsg_version": "1.0",
+    "cert_date": "2021-08-09",
+    "status": "active",
+    "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-513",
+    "advisory_notices": []
+  },
+  {
+    "id": "dominion-democracy-suite-5-10",
+    "slug": "dominion-democracy-suite-5-10",
+    "name": "Democracy Suite 5.10",
+    "manufacturer": "Dominion Voting Systems",
+    "vvsg_version": "1.0",
+    "cert_date": "2018-10-04",
+    "status": "active",
+    "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-510",
+    "advisory_notices": []
+  },
+  {
+    "id": "dominion-democracy-suite-5-5-a",
+    "slug": "dominion-democracy-suite-5-5-a",
+    "name": "Democracy Suite 5.5-A",
+    "manufacturer": "Dominion Voting Systems",
+    "vvsg_version": "1.0",
+    "cert_date": "2018-12-13",
+    "status": "active",
+    "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-55a",
+    "advisory_notices": []
+  },
+  {
+    "id": "hart-verity-2-5",
+    "slug": "hart-verity-2-5",
+    "name": "Verity Voting 2.5",
+    "manufacturer": "Hart InterCivic",
+    "vvsg_version": "1.0",
+    "cert_date": "2022-05-20",
+    "status": "active",
+    "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-25",
+    "advisory_notices": []
+  },
+  {
+    "id": "hart-verity-2-4",
+    "slug": "hart-verity-2-4",
+    "name": "Verity Voting 2.4",
+    "manufacturer": "Hart InterCivic",
+    "vvsg_version": "1.0",
+    "cert_date": "2020-07-17",
+    "status": "active",
+    "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-24",
+    "advisory_notices": []
+  },
+  {
+    "id": "hart-verity-2-3",
+    "slug": "hart-verity-2-3",
+    "name": "Verity Voting 2.3",
+    "manufacturer": "Hart InterCivic",
+    "vvsg_version": "1.0",
+    "cert_date": "2019-02-21",
+    "status": "active",
+    "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-23",
+    "advisory_notices": []
+  },
+  {
+    "id": "unisyn-openelect-2-1",
+    "slug": "unisyn-openelect-2-1",
+    "name": "OpenElect 2.1",
+    "manufacturer": "Unisyn Voting Solutions",
+    "vvsg_version": "1.0",
+    "cert_date": "2022-09-30",
+    "status": "active",
+    "eac_url": "https://www.eac.gov/voting-equipment/openelect-21",
+    "advisory_notices": []
+  },
+  {
+    "id": "clear-ballot-clearvote-2-3",
+    "slug": "clear-ballot-clearvote-2-3",
+    "name": "ClearVote 2.3",
+    "manufacturer": "Clear Ballot Group",
+    "vvsg_version": "1.0",
+    "cert_date": "2023-02-14",
+    "status": "active",
+    "eac_url": "https://www.eac.gov/voting-equipment/clearvote-23",
+    "advisory_notices": []
+  },
+  {
+    "id": "microvote-infinity-4-1",
+    "slug": "microvote-infinity-4-1",
+    "name": "Infinity Voting Panel 4.1",
+    "manufacturer": "MicroVote General",
+    "vvsg_version": "1.0",
+    "cert_date": "2018-04-12",
+    "status": "active",
+    "eac_url": "https://www.eac.gov/voting-equipment/infinity-41",
+    "advisory_notices": []
+  }
+]

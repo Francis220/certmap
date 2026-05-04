@@ -1,0 +1,51 @@
+[
+  {
+    "date": "2025-07-14",
+    "system_id": "hart-verity-2-6",
+    "system_name": "Hart Verity Vanguard 1.0",
+    "kind": "certified",
+    "detail": "Certified VVSG 2.0 · Jul 2025"
+  },
+  {
+    "date": "2025-03-04",
+    "system_id": "ess-evs-6-1-2-0",
+    "system_name": "ES&S EVS 6.1.2.0",
+    "kind": "maintenance",
+    "detail": "Maintenance update · Mar 2025"
+  },
+  {
+    "date": "2024-12-11",
+    "system_id": "dominion-democracy-suite-5-17",
+    "system_name": "Dominion DS300",
+    "kind": "advisory",
+    "detail": "Advisory notice issued · Dec 2024"
+  },
+  {
+    "date": "2024-08-14",
+    "system_id": "ess-evs-6-5-0-0",
+    "system_name": "ES&S EVS 6.5.0.0",
+    "kind": "certified",
+    "detail": "Newly certified · Aug 2024"
+  },
+  {
+    "date": "2024-03-22",
+    "system_id": "hart-verity-2-6",
+    "system_name": "Hart Verity Voting 2.6",
+    "kind": "certified",
+    "detail": "First VVSG 2.0 certification issued · Mar 2024"
+  },
+  {
+    "date": "2023-06-30",
+    "system_id": "dominion-democracy-suite-5-17",
+    "system_name": "Dominion Democracy Suite 5.17",
+    "kind": "certified",
+    "detail": "Newly certified · Jun 2023"
+  },
+  {
+    "date": "2023-02-14",
+    "system_id": "clear-ballot-clearvote-2-3",
+    "system_name": "Clear Ballot ClearVote 2.3",
+    "kind": "certified",
+    "detail": "Newly certified · Feb 2023"
+  }
+]
