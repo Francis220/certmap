@@ -20,14 +20,6 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-.rule {
-  border-top: 1px solid #e8e8e8;
-}
-
-.rule-dark {
-  border-top: 1px solid #1a1a1a;
-}
-
 @layer components {
   .label {
     @apply font-mono text-xs uppercase tracking-label text-mid;

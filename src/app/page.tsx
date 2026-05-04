@@ -84,7 +84,7 @@ export default function Home() {
 
       {/* Scroll indicator */}
       <div className="flex justify-center py-4 border-b border-line">
-        <a href="#table" className="w-9 h-9 rounded-full border border-line flex items-center justify-center hover:border-ink transition-colors">
+        <a href="#table" aria-label="Scroll to jurisdictions table" className="w-9 h-9 rounded-full border border-line flex items-center justify-center hover:border-ink focus:outline-none focus:border-ink transition-colors">
           <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
             <path d="M7 2v10M2 7l5 5 5-5" stroke="#888" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>

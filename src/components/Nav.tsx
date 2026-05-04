@@ -19,7 +19,7 @@ export function Nav() {
             <Link
               key={href}
               href={href}
-              className="font-mono text-xs tracking-label text-mid hover:text-ink transition-colors"
+              className="font-mono text-xs tracking-label text-mid hover:text-ink focus:text-ink focus:outline-none focus:underline transition-colors"
             >
               {label}
             </Link>

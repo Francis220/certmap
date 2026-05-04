@@ -35,8 +35,8 @@ export default async function StatePage({ params }: Props) {
   const vvsg: VVSGVersion = primarySystem?.vvsg_version ?? "unknown";
 
   const systemsUsed = Array.from(
-    new Set(jurisdictions.map((j) => j.system_id).filter(Boolean))
-  ).map((id) => SYSTEM_BY_ID[id!]).filter(Boolean);
+    new Set(jurisdictions.map((j) => j.system_id).filter((id): id is string => Boolean(id)))
+  ).map((id) => SYSTEM_BY_ID[id]).filter((sys): sys is NonNullable<typeof sys> => Boolean(sys));
 
   return (
     <div className="max-w-5xl mx-auto px-6 py-10">
@@ -112,7 +112,7 @@ export default async function StatePage({ params }: Props) {
       <div>
         <p className="label mb-3">
           {jurisdictions.length > 0
-            ? `Sample jurisdictions · ${jurisdictions.length} shown`
+            ? `Jurisdictions · ${jurisdictions.length} shown`
             : "Jurisdictions"}
         </p>
         {jurisdictions.length === 0 ? (

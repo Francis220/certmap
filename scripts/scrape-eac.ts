@@ -1,8 +1,10 @@
 import { readFileSync, writeFileSync } from "fs";
-import { join } from "path";
+import { fileURLToPath } from "url";
+import { join, dirname } from "path";
 import * as cheerio from "cheerio";
 
-const ROOT = join(process.cwd(), "src/data");
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const ROOT = join(__dirname, "../src/data");
 const SYSTEMS_PATH = join(ROOT, "systems.json");
 const CHANGES_PATH = join(ROOT, "changes.json");
 
@@ -48,9 +50,19 @@ function parseStatus(text: string): ScrapedSystem["status"] {
 
 function parseDate(text: string): string {
   const cleaned = text.trim();
+  if (!cleaned) return "unknown";
   const d = new Date(cleaned);
-  if (!isNaN(d.getTime())) return d.toISOString().split("T")[0];
-  return cleaned;
+  return isNaN(d.getTime()) ? "unknown" : d.toISOString().split("T")[0];
+}
+
+function safeAdvisoryUrl(href: string): string | undefined {
+  const full = href.startsWith("http") ? href : `${EAC_BASE}${href}`;
+  try {
+    new URL(full);
+    return full;
+  } catch {
+    return undefined;
+  }
 }
 
 async function fetchPage(url: string): Promise<string> {
@@ -75,13 +87,14 @@ async function scrapeAdvisories(systemUrl: string): Promise<ScrapedSystem["advis
         notices.push({
           date: dateText ? parseDate(dateText) : new Date().toISOString().split("T")[0],
           title,
-          url: link ? (link.startsWith("http") ? link : `${EAC_BASE}${link}`) : undefined,
+          url: link ? safeAdvisoryUrl(link) : undefined,
         });
       }
     });
 
     return notices;
-  } catch {
+  } catch (err) {
+    console.warn(`Advisory scraping failed for ${systemUrl}:`, err instanceof Error ? err.message : String(err));
     return [];
   }
 }
@@ -93,10 +106,8 @@ async function scrapeEAC(): Promise<ScrapedSystem[]> {
 
   const systems: ScrapedSystem[] = [];
 
-  // EAC renders a views-based list — each system is a row/card.
-  // Selector targets the main content rows; adjust if EAC redesigns.
+  // EAC renders a views-based Drupal list — adjust selectors if EAC redesigns.
   const rows = $(".views-row, .view-content .node, article.node--type-certified-voting-system");
-
   console.log(`Found ${rows.length} system entries`);
 
   for (const el of rows.toArray()) {
@@ -110,18 +121,23 @@ async function scrapeEAC(): Promise<ScrapedSystem[]> {
     if (!name) continue;
 
     const fullText = $el.text();
-    const mfr = $el.find(".views-field-field-manufacturer, [class*='manufacturer']").first().text().trim()
-      || $el.find(".field--name-field-manufacturer").first().text().trim();
-    const dateText = $el.find(".views-field-field-certification-date, [class*='cert'], time").first().text().trim();
+    const mfr =
+      $el.find(".views-field-field-manufacturer, [class*='manufacturer']").first().text().trim() ||
+      $el.find(".field--name-field-manufacturer").first().text().trim();
+    const dateText = $el
+      .find(".views-field-field-certification-date, [class*='cert'], time")
+      .first()
+      .text()
+      .trim();
     const statusText = $el.find(".views-field-field-status, [class*='status']").first().text().trim();
 
-    const advisories = systemUrl !== EAC_BASE ? await scrapeAdvisories(systemUrl) : [];
+    const advisories = href ? await scrapeAdvisories(systemUrl) : [];
 
     systems.push({
       name,
       manufacturer: mfr || "Unknown",
       vvsg_version: parseVVSG(fullText),
-      cert_date: dateText ? parseDate(dateText) : "",
+      cert_date: parseDate(dateText),
       status: parseStatus(statusText),
       eac_url: systemUrl,
       advisory_notices: advisories,
@@ -135,7 +151,7 @@ function diff(
   current: Record<string, unknown>[],
   scraped: ScrapedSystem[],
 ): { added: ScrapedSystem[]; changed: ScrapedSystem[]; statusChanged: ScrapedSystem[] } {
-  const currentById = Object.fromEntries(current.map((s) => [(s.id as string), s]));
+  const currentById = Object.fromEntries(current.map((s) => [s.id as string, s]));
   const added: ScrapedSystem[] = [];
   const changed: ScrapedSystem[] = [];
   const statusChanged: ScrapedSystem[] = [];
@@ -199,7 +215,6 @@ async function main() {
   }
 
   const { added, changed, statusChanged } = diff(currentSystems, scraped);
-  const newChangeEntries: Record<string, unknown>[] = [];
 
   if (added.length === 0 && changed.length === 0 && statusChanged.length === 0) {
     console.log("No changes detected.");
@@ -208,7 +223,8 @@ async function main() {
 
   console.log(`Changes: +${added.length} new, ${changed.length} updated, ${statusChanged.length} status changes`);
 
-  // Merge new systems into current list
+  const newChangeEntries: Record<string, unknown>[] = [];
+
   for (const s of added) {
     const id = slugify(s.name, s.manufacturer);
     currentSystems.push({ id, slug: id, ...s });
@@ -216,7 +232,6 @@ async function main() {
     console.log(`  + ${s.name} (${s.manufacturer})`);
   }
 
-  // Update existing systems
   for (const s of changed) {
     const id = slugify(s.name, s.manufacturer);
     const idx = currentSystems.findIndex((x) => x.id === id);
@@ -239,15 +254,12 @@ async function main() {
     }
   }
 
-  // Prepend new change entries (newest first)
   const updatedChanges = [...newChangeEntries, ...currentChanges].slice(0, 50);
 
   writeFileSync(SYSTEMS_PATH, JSON.stringify(currentSystems, null, 2) + "\n");
   writeFileSync(CHANGES_PATH, JSON.stringify(updatedChanges, null, 2) + "\n");
 
   console.log("Written: systems.json, changes.json");
-  // Signal to the workflow that a commit is needed
-  process.exit(2);
 }
 
 main();

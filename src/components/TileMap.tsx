@@ -1,14 +1,12 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useMemo } from "react";
 import { useRouter } from "next/navigation";
 import { STATE_LAYOUT } from "@/data/states";
 import { SYSTEM_BY_ID } from "@/data/systems";
-import type { StateRecord } from "@/lib/types";
-import type { VVSGVersion } from "@/lib/types";
+import type { StateRecord, VVSGVersion } from "@/lib/types";
 
 interface TooltipState {
-  abbr: string;
   name: string;
   systemName: string | null;
   manufacturer: string | null;
@@ -29,54 +27,52 @@ function tileColor(vvsg: VVSGVersion): string {
 }
 
 function tileTextColor(vvsg: VVSGVersion): string {
-  if (vvsg === "2.0") return "#ffffff";
-  return "#1a1a1a";
+  return vvsg === "2.0" ? "#ffffff" : "#1a1a1a";
 }
 
 function getVVSG(state: StateRecord): VVSGVersion {
   if (!state.primary_system_id) return "unknown";
-  const sys = SYSTEM_BY_ID[state.primary_system_id];
-  return sys?.vvsg_version ?? "unknown";
+  return SYSTEM_BY_ID[state.primary_system_id]?.vvsg_version ?? "unknown";
 }
 
-const GRID_COLS = 12;
-const GRID_ROWS = 8;
 const TILE = 54;
 const GAP = 4;
+const GRID_COLS = 12;
+const GRID_ROWS = 8;
+const TOTAL_W = GRID_COLS * TILE + (GRID_COLS - 1) * GAP;
+const TOTAL_H = GRID_ROWS * TILE + (GRID_ROWS - 1) * GAP;
 
 export function TileMap({ states }: Props) {
   const router = useRouter();
   const [tooltip, setTooltip] = useState<TooltipState | null>(null);
 
-  const stateByAbbr = Object.fromEntries(states.map((s) => [s.abbreviation, s]));
-  const layoutByAbbr = Object.fromEntries(STATE_LAYOUT.map((l) => [l.abbreviation, l]));
+  const stateByAbbr = useMemo(
+    () => Object.fromEntries(states.map((s) => [s.abbreviation, s])),
+    [states],
+  );
 
-  const totalW = GRID_COLS * TILE + (GRID_COLS - 1) * GAP;
-  const totalH = GRID_ROWS * TILE + (GRID_ROWS - 1) * GAP;
+  const layoutByAbbr = useMemo(
+    () => Object.fromEntries(STATE_LAYOUT.map((l) => [l.abbreviation, l])),
+    [],
+  );
 
-  function handleEnter(e: React.MouseEvent<SVGGElement>, abbr: string) {
+  function handleEnter(abbr: string) {
     const state = stateByAbbr[abbr];
     if (!state) return;
     const vvsg = getVVSG(state);
     const sys = state.primary_system_id ? SYSTEM_BY_ID[state.primary_system_id] : null;
-    const rect = (e.currentTarget.closest("svg") as SVGSVGElement).getBoundingClientRect();
     const layout = layoutByAbbr[abbr];
     const cx = layout.col * (TILE + GAP) + TILE / 2;
     const cy = layout.row * (TILE + GAP) + TILE / 2;
     setTooltip({
-      abbr,
       name: state.name,
       systemName: sys?.name ?? null,
       manufacturer: sys?.manufacturer ?? null,
       vvsg,
       jurisdictions: state.jurisdiction_count,
-      x: cx / totalW,
-      y: cy / totalH,
+      x: cx / TOTAL_W,
+      y: cy / TOTAL_H,
     });
-  }
-
-  function handleLeave() {
-    setTooltip(null);
   }
 
   function handleClick(abbr: string) {
@@ -86,10 +82,11 @@ export function TileMap({ states }: Props) {
   return (
     <div className="relative w-full" id="map">
       <svg
-        viewBox={`0 0 ${totalW} ${totalH}`}
+        viewBox={`0 0 ${TOTAL_W} ${TOTAL_H}`}
         className="w-full h-auto"
         style={{ maxHeight: 440 }}
         aria-label="US state voting system certification map"
+        role="img"
       >
         {STATE_LAYOUT.map(({ abbreviation, col, row }) => {
           const state = stateByAbbr[abbreviation];
@@ -97,25 +94,27 @@ export function TileMap({ states }: Props) {
           const vvsg = getVVSG(state);
           const x = col * (TILE + GAP);
           const y = row * (TILE + GAP);
-          const fill = tileColor(vvsg);
-          const textFill = tileTextColor(vvsg);
 
           return (
             <g
               key={abbreviation}
               onClick={() => handleClick(abbreviation)}
-              onMouseEnter={(e) => handleEnter(e, abbreviation)}
-              onMouseLeave={handleLeave}
-              style={{ cursor: "pointer" }}
+              onMouseEnter={() => handleEnter(abbreviation)}
+              onMouseLeave={() => setTooltip(null)}
+              onKeyDown={(e) => {
+                if (e.key === "Enter" || e.key === " ") handleClick(abbreviation);
+              }}
+              tabIndex={0}
               role="button"
-              aria-label={`${state.name} — VVSG ${vvsg}`}
+              aria-label={`${state.name} — VVSG ${vvsg === "unknown" ? "unknown" : vvsg}`}
+              style={{ cursor: "pointer", outline: "none" }}
             >
               <rect
                 x={x}
                 y={y}
                 width={TILE}
                 height={TILE}
-                fill={fill}
+                fill={tileColor(vvsg)}
                 stroke={vvsg === "unknown" ? "#d0cfc9" : "none"}
                 strokeWidth={1}
               />
@@ -126,7 +125,7 @@ export function TileMap({ states }: Props) {
                 fontSize={10}
                 fontFamily="var(--font-mono)"
                 fontWeight={500}
-                fill={textFill}
+                fill={tileTextColor(vvsg)}
                 style={{ userSelect: "none", pointerEvents: "none" }}
               >
                 {abbreviation}

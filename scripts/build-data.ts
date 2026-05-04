@@ -1,11 +1,13 @@
 import { writeFileSync } from "fs";
-import { join } from "path";
+import { join, dirname } from "path";
+import { fileURLToPath } from "url";
 import { SYSTEMS } from "../src/data/systems";
 import { STATES } from "../src/data/states";
 import { JURISDICTIONS } from "../src/data/jurisdictions";
 import { SYSTEM_BY_ID } from "../src/data/systems";
 
-const out = join(process.cwd(), "public");
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const out = join(__dirname, "../public");
 
 const dataset = {
   generated_at: new Date().toISOString(),

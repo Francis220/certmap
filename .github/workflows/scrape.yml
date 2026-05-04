@@ -23,20 +23,7 @@ jobs:
         run: npm ci
 
       - name: Run EAC scraper
-        id: scrape
-        run: |
-          npm run scrape
-          echo "changed=false" >> "$GITHUB_OUTPUT"
-        continue-on-error: true
-
-      - name: Check if scraper found changes
-        id: result
-        run: |
-          if [ "${{ steps.scrape.outputs.changed }}" = "false" ] && [ ${{ steps.scrape.outcome }} = "failure" ]; then
-            echo "changed=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "changed=false" >> "$GITHUB_OUTPUT"
-          fi
+        run: npm run scrape
 
       - name: Check for file changes
         id: git_diff
