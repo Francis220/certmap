@@ -22,13 +22,24 @@ interface ScrapedSystem {
 }
 
 function slugify(name: string, manufacturer: string): string {
-  const mfrSlug = manufacturer
+  const lowerManufacturer = manufacturer.toLowerCase();
+  let mfrSlug = manufacturer
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/(^-|-$)/g, "");
+
+  if (manufacturer === "ES&S") mfrSlug = "ess";
+  else if (lowerManufacturer.includes("dominion")) mfrSlug = "dominion";
+  else if (lowerManufacturer.includes("hart intercivic")) mfrSlug = "hart";
+  else if (lowerManufacturer.includes("unisyn")) mfrSlug = "unisyn";
+  else if (lowerManufacturer.includes("clear ballot")) mfrSlug = "clear-ballot";
+  else if (lowerManufacturer.includes("microvote")) mfrSlug = "microvote";
+  else if (lowerManufacturer.includes("premier")) mfrSlug = "premier";
+  else if (lowerManufacturer.includes("smartmatic")) mfrSlug = "smartmatic";
+
   const nameSlug = name
     .toLowerCase()
-    .replace(/[^a-z0-9.]+/g, "-")
+    .replace(/[^a-z0-9]+/g, "-")
     .replace(/(^-|-$)/g, "");
   return `${mfrSlug}-${nameSlug}`.replace(/-+/g, "-");
 }
@@ -55,8 +66,31 @@ function parseDate(text: string): string {
   return isNaN(d.getTime()) ? "unknown" : d.toISOString().split("T")[0];
 }
 
+function cleanText(text: string): string {
+  return text.replace(/\s+/g, " ").trim();
+}
+
+function absoluteEacUrl(href: string): string {
+  return href.startsWith("http") ? href : `${EAC_BASE}${href}`;
+}
+
+function normalizeManufacturer(manufacturer: string): string {
+  const normalized = cleanText(manufacturer);
+  const lower = normalized.toLowerCase();
+
+  if (lower.includes("election systems") && lower.includes("es&s")) return "ES&S";
+  if (lower.includes("dominion voting systems")) return "Dominion Voting Systems";
+  if (lower.includes("hart intercivic")) return "Hart InterCivic";
+  if (lower.includes("unisyn voting solutions")) return "Unisyn Voting Solutions";
+  if (lower.includes("clear ballot")) return "Clear Ballot Group";
+  if (lower.includes("microvote")) return "MicroVote General";
+  if (lower.includes("premier election solutions")) return "Premier Election Solutions";
+
+  return normalized;
+}
+
 function safeAdvisoryUrl(href: string): string | undefined {
-  const full = href.startsWith("http") ? href : `${EAC_BASE}${href}`;
+  const full = absoluteEacUrl(href);
   try {
     new URL(full);
     return full;
@@ -85,7 +119,7 @@ async function scrapeAdvisories(systemUrl: string): Promise<ScrapedSystem["advis
       const link = $(el).find("a").first().attr("href");
       if (title) {
         notices.push({
-          date: dateText ? parseDate(dateText) : new Date().toISOString().split("T")[0],
+          date: dateText ? parseDate(dateText) : "unknown",
           title,
           url: link ? safeAdvisoryUrl(link) : undefined,
         });
@@ -106,30 +140,63 @@ async function scrapeEAC(): Promise<ScrapedSystem[]> {
 
   const systems: ScrapedSystem[] = [];
 
-  // EAC renders a views-based Drupal list — adjust selectors if EAC redesigns.
+  const tableRows = $("table tbody tr").filter((_, el) => {
+    return $(el).find("td.views-field-title a").length > 0;
+  });
+
+  console.log(`Found ${tableRows.length} table system entries`);
+
+  for (const el of tableRows.toArray()) {
+    const $el = $(el);
+
+    const nameEl = $el.find("td.views-field-title a").first();
+    const name = cleanText(nameEl.text());
+    const href = nameEl.attr("href") ?? "";
+
+    if (!name) continue;
+
+    const systemUrl = absoluteEacUrl(href);
+    const manufacturer = normalizeManufacturer($el.find("td.views-field-field-manufacturer").first().text());
+    const testingStandard = cleanText($el.find("td.views-field-field-testing-standard").first().text());
+    const certDate = cleanText($el.find("td.views-field-field-certification-date").first().text());
+    const advisories = href ? await scrapeAdvisories(systemUrl) : [];
+
+    systems.push({
+      name,
+      manufacturer: manufacturer || "Unknown",
+      vvsg_version: parseVVSG(testingStandard),
+      cert_date: parseDate(certDate),
+      status: "active",
+      eac_url: systemUrl,
+      advisory_notices: advisories,
+    });
+  }
+
+  if (systems.length > 0) return systems;
+
+  // Legacy Drupal card rendering, kept as a fallback in case EAC swaps views displays again.
   const rows = $(".views-row, .view-content .node, article.node--type-certified-voting-system");
-  console.log(`Found ${rows.length} system entries`);
+  console.log(`Found ${rows.length} legacy system entries`);
 
   for (const el of rows.toArray()) {
     const $el = $(el);
 
     const nameEl = $el.find("h2 a, h3 a, .views-field-title a, .node__title a").first();
-    const name = nameEl.text().trim();
+    const name = cleanText(nameEl.text());
     const href = nameEl.attr("href") ?? "";
-    const systemUrl = href.startsWith("http") ? href : `${EAC_BASE}${href}`;
+    const systemUrl = absoluteEacUrl(href);
 
     if (!name) continue;
 
     const fullText = $el.text();
     const mfr =
-      $el.find(".views-field-field-manufacturer, [class*='manufacturer']").first().text().trim() ||
-      $el.find(".field--name-field-manufacturer").first().text().trim();
+      normalizeManufacturer($el.find(".views-field-field-manufacturer, [class*='manufacturer']").first().text()) ||
+      normalizeManufacturer($el.find(".field--name-field-manufacturer").first().text());
     const dateText = $el
       .find(".views-field-field-certification-date, [class*='cert'], time")
       .first()
-      .text()
-      .trim();
-    const statusText = $el.find(".views-field-field-status, [class*='status']").first().text().trim();
+      .text();
+    const statusText = cleanText($el.find(".views-field-field-status, [class*='status']").first().text());
 
     const advisories = href ? await scrapeAdvisories(systemUrl) : [];
 
@@ -152,13 +219,14 @@ function diff(
   scraped: ScrapedSystem[],
 ): { added: ScrapedSystem[]; changed: ScrapedSystem[]; statusChanged: ScrapedSystem[] } {
   const currentById = Object.fromEntries(current.map((s) => [s.id as string, s]));
+  const currentByUrl = Object.fromEntries(current.map((s) => [s.eac_url as string, s]));
   const added: ScrapedSystem[] = [];
   const changed: ScrapedSystem[] = [];
   const statusChanged: ScrapedSystem[] = [];
 
   for (const s of scraped) {
     const id = slugify(s.name, s.manufacturer);
-    const existing = currentById[id];
+    const existing = currentById[id] ?? currentByUrl[s.eac_url];
     if (!existing) {
       added.push(s);
     } else {
@@ -179,6 +247,7 @@ function diff(
 function buildChangeEntry(
   s: ScrapedSystem,
   kind: "certified" | "maintenance" | "advisory" | "decertified" | "revised",
+  systemId = slugify(s.name, s.manufacturer),
 ): Record<string, unknown> {
   const today = new Date().toISOString().split("T")[0];
   const labels: Record<string, string> = {
@@ -190,7 +259,7 @@ function buildChangeEntry(
   };
   return {
     date: today,
-    system_id: slugify(s.name, s.manufacturer),
+    system_id: systemId,
     system_name: s.name,
     kind,
     detail: labels[kind],
@@ -224,6 +293,10 @@ async function main() {
   console.log(`Changes: +${added.length} new, ${changed.length} updated, ${statusChanged.length} status changes`);
 
   const newChangeEntries: Record<string, unknown>[] = [];
+  const findCurrentSystemIndex = (s: ScrapedSystem): number => {
+    const id = slugify(s.name, s.manufacturer);
+    return currentSystems.findIndex((x) => x.id === id || x.eac_url === s.eac_url);
+  };
 
   for (const s of added) {
     const id = slugify(s.name, s.manufacturer);
@@ -233,23 +306,21 @@ async function main() {
   }
 
   for (const s of changed) {
-    const id = slugify(s.name, s.manufacturer);
-    const idx = currentSystems.findIndex((x) => x.id === id);
+    const idx = findCurrentSystemIndex(s);
     if (idx !== -1) {
       currentSystems[idx] = { ...currentSystems[idx], ...s };
       const kind = s.advisory_notices.length > 0 ? "advisory" : "maintenance";
-      newChangeEntries.push(buildChangeEntry(s, kind));
+      newChangeEntries.push(buildChangeEntry(s, kind, currentSystems[idx].id as string));
       console.log(`  ~ ${s.name} (${kind})`);
     }
   }
 
   for (const s of statusChanged) {
-    const id = slugify(s.name, s.manufacturer);
-    const idx = currentSystems.findIndex((x) => x.id === id);
+    const idx = findCurrentSystemIndex(s);
     if (idx !== -1) {
       currentSystems[idx] = { ...currentSystems[idx], status: s.status };
       const kind = s.status === "decertified" ? "decertified" : "revised";
-      newChangeEntries.push(buildChangeEntry(s, kind));
+      newChangeEntries.push(buildChangeEntry(s, kind, currentSystems[idx].id as string));
       console.log(`  ! ${s.name} → ${s.status}`);
     }
   }

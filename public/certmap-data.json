@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-04T21:22:19.582Z",
+  "generated_at": "2026-05-06T15:40:55.734Z",
   "systems": [
     {
       "id": "hart-verity-2-6",
       "slug": "hart-verity-2-6",
       "name": "Verity Voting 2.6",
       "manufacturer": "Hart InterCivic",
-      "vvsg_version": "2.0",
-      "cert_date": "2024-03-22",
+      "vvsg_version": "1.0",
+      "cert_date": "2021-04-20",
       "status": "active",
       "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-26",
       "advisory_notices": []
@@ -45,10 +45,16 @@
       "name": "EVS 6.1.1.0",
       "manufacturer": "ES&S",
       "vvsg_version": "1.0",
-      "cert_date": "2021-04-02",
+      "cert_date": "2020-07-27",
       "status": "active",
       "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-      "advisory_notices": []
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+        }
+      ]
     },
     {
       "id": "ess-evs-6-0-4-0",
@@ -56,10 +62,16 @@
       "name": "EVS 6.0.4.0",
       "manufacturer": "ES&S",
       "vvsg_version": "1.0",
-      "cert_date": "2019-09-12",
+      "cert_date": "2019-05-03",
       "status": "active",
       "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
-      "advisory_notices": []
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_3.pdf"
+        }
+      ]
     },
     {
       "id": "ess-evs-5-5-0-0",
@@ -78,10 +90,16 @@
       "name": "Democracy Suite 5.17",
       "manufacturer": "Dominion Voting Systems",
       "vvsg_version": "1.0",
-      "cert_date": "2023-06-30",
+      "cert_date": "2023-03-16",
       "status": "active",
       "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
-      "advisory_notices": []
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/2024-09/2024-MAY-20-FINAL-PAN-ICX-Touchscreen-Initialization%20%28003%29.pdf"
+        }
+      ]
     },
     {
       "id": "dominion-democracy-suite-5-15",
@@ -192,6 +210,1109 @@
       "status": "active",
       "eac_url": "https://www.eac.gov/voting-equipment/infinity-41",
       "advisory_notices": []
+    },
+    {
+      "id": "premier-assure-1-2",
+      "slug": "premier-assure-1-2",
+      "name": "Assure 1.2",
+      "manufacturer": "Premier Election Solutions",
+      "vvsg_version": "unknown",
+      "cert_date": "2009-08-06",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/assure-12",
+      "advisory_notices": []
+    },
+    {
+      "id": "dominion-assure-1-3-modification",
+      "slug": "dominion-assure-1-3-modification",
+      "name": "Assure 1.3 Modification",
+      "manufacturer": "Dominion Voting Systems",
+      "vvsg_version": "unknown",
+      "cert_date": "2012-06-29",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/assure-13-modification",
+      "advisory_notices": []
+    },
+    {
+      "id": "clear-ballot-clearvote-2-5",
+      "slug": "clear-ballot-clearvote-2-5",
+      "name": "ClearVote 2.5",
+      "manufacturer": "Clear Ballot Group",
+      "vvsg_version": "1.0",
+      "cert_date": "2025-11-19",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/clearvote-25",
+      "advisory_notices": []
+    },
+    {
+      "id": "clear-ballot-clearvote-1-4",
+      "slug": "clear-ballot-clearvote-1-4",
+      "name": "ClearVote 1.4",
+      "manufacturer": "Clear Ballot Group",
+      "vvsg_version": "1.0",
+      "cert_date": "2018-02-08",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/clearvote-14",
+      "advisory_notices": []
+    },
+    {
+      "id": "clear-ballot-clearvote-1-5",
+      "slug": "clear-ballot-clearvote-1-5",
+      "name": "ClearVote 1.5",
+      "manufacturer": "Clear Ballot Group",
+      "vvsg_version": "1.0",
+      "cert_date": "2019-03-19",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/clearvote-15",
+      "advisory_notices": []
+    },
+    {
+      "id": "clear-ballot-clearvote-2-0",
+      "slug": "clear-ballot-clearvote-2-0",
+      "name": "ClearVote 2.0",
+      "manufacturer": "Clear Ballot Group",
+      "vvsg_version": "1.0",
+      "cert_date": "2019-10-21",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/clearvote-20",
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/voting_system/files/Clear%20Ballot%20Product%20Advisory%20Notice%2020-01_0.pdf"
+        }
+      ]
+    },
+    {
+      "id": "clear-ballot-clearvote-2-2",
+      "slug": "clear-ballot-clearvote-2-2",
+      "name": "ClearVote 2.2",
+      "manufacturer": "Clear Ballot Group",
+      "vvsg_version": "1.0",
+      "cert_date": "2021-12-23",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/clearvote-22",
+      "advisory_notices": []
+    },
+    {
+      "id": "dominion-democracy-suite-4-0",
+      "slug": "dominion-democracy-suite-4-0",
+      "name": "Democracy Suite 4.0",
+      "manufacturer": "Dominion Voting Systems",
+      "vvsg_version": "1.0",
+      "cert_date": "2012-05-10",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-40",
+      "advisory_notices": []
+    },
+    {
+      "id": "dominion-democracy-suite-4-14-modification",
+      "slug": "dominion-democracy-suite-4-14-modification",
+      "name": "Democracy Suite 4.14 Modification",
+      "manufacturer": "Dominion Voting Systems",
+      "vvsg_version": "1.0",
+      "cert_date": "2013-07-18",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-414-modification",
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/voting_system/files/DVS%20PAN%20-ICE%20Ext%20Monitor%20Spanish%20Audio%20Files%20MissingvFINAL_0.pdf"
+        }
+      ]
+    },
+    {
+      "id": "dominion-democracy-suite-4-14-a-1-modification",
+      "slug": "dominion-democracy-suite-4-14-a-1-modification",
+      "name": "Democracy Suite 4.14-A.1 Modification",
+      "manufacturer": "Dominion Voting Systems",
+      "vvsg_version": "1.0",
+      "cert_date": "2014-06-16",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-414-a1-modification",
+      "advisory_notices": []
+    },
+    {
+      "id": "dominion-democracy-suite-4-14-b-modification",
+      "slug": "dominion-democracy-suite-4-14-b-modification",
+      "name": "Democracy Suite 4.14-B Modification",
+      "manufacturer": "Dominion Voting Systems",
+      "vvsg_version": "1.0",
+      "cert_date": "2014-01-07",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-414-b-modification",
+      "advisory_notices": []
+    },
+    {
+      "id": "dominion-democracy-suite-4-14-d-modification",
+      "slug": "dominion-democracy-suite-4-14-d-modification",
+      "name": "Democracy Suite 4.14-D Modification",
+      "manufacturer": "Dominion Voting Systems",
+      "vvsg_version": "1.0",
+      "cert_date": "2014-11-25",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-414-d-modification",
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/voting_system/files/PAN-DM-ADJ-2015-001_0.pdf"
+        }
+      ]
+    },
+    {
+      "id": "dominion-democracy-suite-4-14-e-modification",
+      "slug": "dominion-democracy-suite-4-14-e-modification",
+      "name": "Democracy Suite 4.14-E Modification",
+      "manufacturer": "Dominion Voting Systems",
+      "vvsg_version": "1.0",
+      "cert_date": "2015-07-02",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-414-e-modification",
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/voting_system/files/PAN-DM-ADJ-2015-001.pdf"
+        }
+      ]
+    },
+    {
+      "id": "dominion-democracy-suite-4-14a-modification",
+      "slug": "dominion-democracy-suite-4-14a-modification",
+      "name": "Democracy Suite 4.14A Modification",
+      "manufacturer": "Dominion Voting Systems",
+      "vvsg_version": "1.0",
+      "cert_date": "2013-09-20",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-414a-modification",
+      "advisory_notices": []
+    },
+    {
+      "id": "dominion-democracy-suite-5-0",
+      "slug": "dominion-democracy-suite-5-0",
+      "name": "Democracy Suite 5.0",
+      "manufacturer": "Dominion Voting Systems",
+      "vvsg_version": "1.0",
+      "cert_date": "2017-02-08",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-50",
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/voting_system/files/ICPICC%20when%20scanning%20multi-card%20ballo_0.pdf"
+        }
+      ]
+    },
+    {
+      "id": "dominion-democracy-suite-5-0-a",
+      "slug": "dominion-democracy-suite-5-0-a",
+      "name": "Democracy Suite 5.0-A",
+      "manufacturer": "Dominion Voting Systems",
+      "vvsg_version": "1.0",
+      "cert_date": "2017-08-14",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-50-0",
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/voting_system/files/ICPICC~1.PDF"
+        }
+      ]
+    },
+    {
+      "id": "dominion-democracy-suite-5-20",
+      "slug": "dominion-democracy-suite-5-20",
+      "name": "Democracy Suite 5.20",
+      "manufacturer": "Dominion Voting Systems",
+      "vvsg_version": "1.0",
+      "cert_date": "2025-02-04",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-520",
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/2026-02/2026-JAN-07_CAN_ICCBatchReconciliation.pdf"
+        }
+      ]
+    },
+    {
+      "id": "dominion-democracy-suite-5-5",
+      "slug": "dominion-democracy-suite-5-5",
+      "name": "Democracy Suite 5.5",
+      "manufacturer": "Dominion Voting Systems",
+      "vvsg_version": "1.0",
+      "cert_date": "2018-09-14",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-55",
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/voting_system/files/ICPICC~1_0.PDF"
+        }
+      ]
+    },
+    {
+      "id": "dominion-democracy-suite-5-5-a-modification",
+      "slug": "dominion-democracy-suite-5-5-a-modification",
+      "name": "Democracy Suite 5.5-A (Modification)",
+      "manufacturer": "Dominion Voting Systems",
+      "vvsg_version": "1.0",
+      "cert_date": "2019-01-19",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-55-modification",
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/voting_system/files/ICPICC~1_1.PDF"
+        }
+      ]
+    },
+    {
+      "id": "dominion-democracy-suite-5-5-c",
+      "slug": "dominion-democracy-suite-5-5-c",
+      "name": "Democracy Suite 5.5-C",
+      "manufacturer": "Dominion Voting Systems",
+      "vvsg_version": "1.0",
+      "cert_date": "2020-07-09",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-55-c",
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/voting_system/files/PAN%20-%20ImageCast%20Precinct%20-%20Provisional_0.pdf"
+        }
+      ]
+    },
+    {
+      "id": "dominion-democracy-suite-5-5-d",
+      "slug": "dominion-democracy-suite-5-5-d",
+      "name": "Democracy Suite 5.5-D",
+      "manufacturer": "Dominion Voting Systems",
+      "vvsg_version": "1.0",
+      "cert_date": "2022-06-08",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-55-d",
+      "advisory_notices": []
+    },
+    {
+      "id": "dominion-democracy-suite-5-5b-modification",
+      "slug": "dominion-democracy-suite-5-5b-modification",
+      "name": "Democracy Suite 5.5B (Modification)",
+      "manufacturer": "Dominion Voting Systems",
+      "vvsg_version": "1.0",
+      "cert_date": "2019-09-10",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-55b-modification",
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/voting_system/files/PAN%20-%20ImageCast%20Precinct%20-%20Provisional_1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "microvote-ems-4-2-modification",
+      "slug": "microvote-ems-4-2-modification",
+      "name": "EMS 4.2 Modification",
+      "manufacturer": "MicroVote General",
+      "vvsg_version": "1.0",
+      "cert_date": "2018-11-01",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/ems-42-modification",
+      "advisory_notices": []
+    },
+    {
+      "id": "microvote-ems-ver-4-0",
+      "slug": "microvote-ems-ver-4-0",
+      "name": "EMS Ver. 4.0",
+      "manufacturer": "MicroVote General",
+      "vvsg_version": "1.0",
+      "cert_date": "2009-02-06",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/ems-ver-40",
+      "advisory_notices": []
+    },
+    {
+      "id": "microvote-ems-ver-4-0b-modification",
+      "slug": "microvote-ems-ver-4-0b-modification",
+      "name": "EMS Ver. 4.0B Modification",
+      "manufacturer": "MicroVote General",
+      "vvsg_version": "1.0",
+      "cert_date": "2010-08-17",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/ems-ver-40b-modification",
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/voting_system/files/MicroVoteEMS40B_Product_Advisory-final_august_23_2010.pdf"
+        }
+      ]
+    },
+    {
+      "id": "microvote-ems-ver-4-1-modification",
+      "slug": "microvote-ems-ver-4-1-modification",
+      "name": "EMS Ver. 4.1 Modification",
+      "manufacturer": "MicroVote General",
+      "vvsg_version": "1.0",
+      "cert_date": "2015-07-15",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/ems-ver-41-modification",
+      "advisory_notices": []
+    },
+    {
+      "id": "ess-evs-5-0-0-0",
+      "slug": "ess-evs-5-0-0-0",
+      "name": "EVS 5.0.0.0",
+      "manufacturer": "ES&S",
+      "vvsg_version": "1.0",
+      "cert_date": "2013-05-16",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/evs-5000",
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/voting_system/files/ESS_FYIDS85017066_DS450_DS850.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ess-evs-5-0-1-0-modification",
+      "slug": "ess-evs-5-0-1-0-modification",
+      "name": "EVS 5.0.1.0 Modification",
+      "manufacturer": "ES&S",
+      "vvsg_version": "1.0",
+      "cert_date": "2014-03-17",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/evs-5010-modification",
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/voting_system/files/ESS_FYIDS85017066_DS450_DS850_0.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ess-evs-5-2-0-0-modification",
+      "slug": "ess-evs-5-2-0-0-modification",
+      "name": "EVS 5.2.0.0 Modification",
+      "manufacturer": "ES&S",
+      "vvsg_version": "1.0",
+      "cert_date": "2014-07-02",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/evs-5200-modification",
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/voting_system/files/ESS_FYIDS85017066_DS450_DS850_1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ess-evs-5-2-0-3-modification",
+      "slug": "ess-evs-5-2-0-3-modification",
+      "name": "EVS 5.2.0.3 Modification",
+      "manufacturer": "ES&S",
+      "vvsg_version": "1.0",
+      "cert_date": "2015-08-05",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/evs-5203-modification",
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/voting_system/files/ESS_FYIDS85017066_DS450_DS850_2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ess-evs-5-2-0-4-modification",
+      "slug": "ess-evs-5-2-0-4-modification",
+      "name": "EVS 5.2.0.4 Modification",
+      "manufacturer": "ES&S",
+      "vvsg_version": "1.0",
+      "cert_date": "2016-04-27",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/evs-5204-modification",
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/voting_system/files/ESS_FYIDS85017066_DS450_DS850_3.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ess-evs-5-2-1-0-modification",
+      "slug": "ess-evs-5-2-1-0-modification",
+      "name": "EVS 5.2.1.0 Modification",
+      "manufacturer": "ES&S",
+      "vvsg_version": "1.0",
+      "cert_date": "2015-12-18",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/evs-5210-modification",
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/voting_system/files/ESS_FYIDS85017066_DS450_DS850_5.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ess-evs-5-2-1-1-modification",
+      "slug": "ess-evs-5-2-1-1-modification",
+      "name": "EVS 5.2.1.1 Modification",
+      "manufacturer": "ES&S",
+      "vvsg_version": "1.0",
+      "cert_date": "2016-07-15",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/evs-5211-modification",
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/voting_system/files/ESS_FYIDS85017066_DS450_DS850_6.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ess-evs-5-2-2-0-modification",
+      "slug": "ess-evs-5-2-2-0-modification",
+      "name": "EVS 5.2.2.0 Modification",
+      "manufacturer": "ES&S",
+      "vvsg_version": "1.0",
+      "cert_date": "2017-02-27",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/evs-5220-modification",
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/voting_system/files/ESS_FYIDS85017066_DS450_DS850_7.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ess-evs-5-2-3-0",
+      "slug": "ess-evs-5-2-3-0",
+      "name": "EVS 5.2.3.0",
+      "manufacturer": "ES&S",
+      "vvsg_version": "1.0",
+      "cert_date": "2018-02-08",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/evs-5230",
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/voting_system/files/ESS_FYIDS85017066_DS450_DS850_8.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ess-evs-5-2-4-0",
+      "slug": "ess-evs-5-2-4-0",
+      "name": "EVS 5.2.4.0",
+      "manufacturer": "ES&S",
+      "vvsg_version": "1.0",
+      "cert_date": "2018-06-05",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/evs-5240",
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/voting_system/files/ESS_FYIDS85017066_DS450_DS850_9.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ess-evs-5-4-0-0-modification",
+      "slug": "ess-evs-5-4-0-0-modification",
+      "name": "EVS 5.4.0.0 Modification",
+      "manufacturer": "ES&S",
+      "vvsg_version": "1.0",
+      "cert_date": "2017-02-24",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/evs-5400-modification",
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/voting_system/files/FYIERM19100_Incorrect%20Timestamp%20During%20DST.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ess-evs-5-4-1-0",
+      "slug": "ess-evs-5-4-1-0",
+      "name": "EVS 5.4.1.0",
+      "manufacturer": "ES&S",
+      "vvsg_version": "1.0",
+      "cert_date": "2018-05-23",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/evs-5410",
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/voting_system/files/FYIERM19100_Incorrect%20Timestamp%20During%20DST_0.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ess-evs-6-0-0-0",
+      "slug": "ess-evs-6-0-0-0",
+      "name": "EVS 6.0.0.0",
+      "manufacturer": "ES&S",
+      "vvsg_version": "1.0",
+      "cert_date": "2018-07-02",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/evs-6000",
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/voting_system/files/ESS_FYIDS85017066_DS450_DS850_12.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ess-evs-6-0-2-0-modification",
+      "slug": "ess-evs-6-0-2-0-modification",
+      "name": "EVS 6.0.2.0 (Modification)",
+      "manufacturer": "ES&S",
+      "vvsg_version": "1.0",
+      "cert_date": "2018-10-04",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/evs-6020-modification",
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_0.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ess-evs-6-0-2-1-modification",
+      "slug": "ess-evs-6-0-2-1-modification",
+      "name": "EVS 6.0.2.1 (Modification)",
+      "manufacturer": "ES&S",
+      "vvsg_version": "1.0",
+      "cert_date": "2018-11-12",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/evs-6021-modification",
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_1.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ess-evs-6-0-3-0",
+      "slug": "ess-evs-6-0-3-0",
+      "name": "EVS 6.0.3.0",
+      "manufacturer": "ES&S",
+      "vvsg_version": "1.0",
+      "cert_date": "2020-07-27",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/evs-6030",
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_2.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ess-evs-6-0-4-3",
+      "slug": "ess-evs-6-0-4-3",
+      "name": "EVS 6.0.4.3",
+      "manufacturer": "ES&S",
+      "vvsg_version": "1.0",
+      "cert_date": "2020-03-11",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/evs-6043",
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_4.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ess-evs-6-0-6-0",
+      "slug": "ess-evs-6-0-6-0",
+      "name": "EVS 6.0.6.0",
+      "manufacturer": "ES&S",
+      "vvsg_version": "1.0",
+      "cert_date": "2021-12-28",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/evs-6060",
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_5.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ess-evs-6-1-0-0",
+      "slug": "ess-evs-6-1-0-0",
+      "name": "EVS 6.1.0.0",
+      "manufacturer": "ES&S",
+      "vvsg_version": "1.0",
+      "cert_date": "2019-09-24",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/evs-6100",
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_6.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ess-evs-6-2-0-0",
+      "slug": "ess-evs-6-2-0-0",
+      "name": "EVS 6.2.0.0",
+      "manufacturer": "ES&S",
+      "vvsg_version": "1.0",
+      "cert_date": "2021-12-23",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/evs-6200-0",
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_8.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ess-evs-6-3-0-0",
+      "slug": "ess-evs-6-3-0-0",
+      "name": "EVS 6.3.0.0",
+      "manufacturer": "ES&S",
+      "vvsg_version": "1.0",
+      "cert_date": "2022-11-11",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/evs-6300",
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_9.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ess-evs-6-4-0-0",
+      "slug": "ess-evs-6-4-0-0",
+      "name": "EVS 6.4.0.0",
+      "manufacturer": "ES&S",
+      "vvsg_version": "1.0",
+      "cert_date": "2023-08-18",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/evs-6400",
+      "advisory_notices": []
+    },
+    {
+      "id": "microvote-microvote-ems-4-3-a",
+      "slug": "microvote-microvote-ems-4-3-a",
+      "name": "MicroVote EMS 4.3-A",
+      "manufacturer": "MicroVote General",
+      "vvsg_version": "1.0",
+      "cert_date": "2020-01-16",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/microvote-ems-43",
+      "advisory_notices": []
+    },
+    {
+      "id": "microvote-microvote-ems-4-4",
+      "slug": "microvote-microvote-ems-4-4",
+      "name": "MicroVote EMS 4.4",
+      "manufacturer": "MicroVote General",
+      "vvsg_version": "1.0",
+      "cert_date": "2020-05-05",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/microvote-ems-44",
+      "advisory_notices": []
+    },
+    {
+      "id": "microvote-microvote-ems-4-41-voting-system",
+      "slug": "microvote-microvote-ems-4-41-voting-system",
+      "name": "MicroVote EMS 4.41 Voting System",
+      "manufacturer": "MicroVote General",
+      "vvsg_version": "1.0",
+      "cert_date": "2020-09-21",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/microvote-ems-441-voting-system",
+      "advisory_notices": []
+    },
+    {
+      "id": "unisyn-openelect-1-3-0-2a",
+      "slug": "unisyn-openelect-1-3-0-2a",
+      "name": "OpenElect 1.3.0.2A",
+      "manufacturer": "Unisyn Voting Solutions",
+      "vvsg_version": "1.0",
+      "cert_date": "2018-03-15",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/openelect-1302a",
+      "advisory_notices": []
+    },
+    {
+      "id": "unisyn-openelect-2-0",
+      "slug": "unisyn-openelect-2-0",
+      "name": "OpenElect 2.0",
+      "manufacturer": "Unisyn Voting Solutions",
+      "vvsg_version": "1.0",
+      "cert_date": "2017-10-17",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/openelect-20",
+      "advisory_notices": []
+    },
+    {
+      "id": "unisyn-openelect-2-0-a",
+      "slug": "unisyn-openelect-2-0-a",
+      "name": "OpenElect 2.0.A",
+      "manufacturer": "Unisyn Voting Solutions",
+      "vvsg_version": "1.0",
+      "cert_date": "2018-06-05",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/openelect-20a",
+      "advisory_notices": []
+    },
+    {
+      "id": "unisyn-openelect-2-0-a-2",
+      "slug": "unisyn-openelect-2-0-a-2",
+      "name": "OpenElect 2.0.A.2",
+      "manufacturer": "Unisyn Voting Solutions",
+      "vvsg_version": "1.0",
+      "cert_date": "2018-12-11",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/openelect-20a2",
+      "advisory_notices": []
+    },
+    {
+      "id": "unisyn-openelect-2-2",
+      "slug": "unisyn-openelect-2-2",
+      "name": "OpenElect 2.2",
+      "manufacturer": "Unisyn Voting Solutions",
+      "vvsg_version": "1.0",
+      "cert_date": "2021-11-18",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/openelect-22",
+      "advisory_notices": []
+    },
+    {
+      "id": "unisyn-openelect-2-2-3",
+      "slug": "unisyn-openelect-2-2-3",
+      "name": "OpenElect 2.2.3",
+      "manufacturer": "Unisyn Voting Solutions",
+      "vvsg_version": "1.0",
+      "cert_date": "2023-08-22",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/openelect-223",
+      "advisory_notices": []
+    },
+    {
+      "id": "unisyn-openelect-v-1-0",
+      "slug": "unisyn-openelect-v-1-0",
+      "name": "OpenElect v.1.0",
+      "manufacturer": "Unisyn Voting Solutions",
+      "vvsg_version": "1.0",
+      "cert_date": "2010-01-13",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/openelect-v10",
+      "advisory_notices": []
+    },
+    {
+      "id": "unisyn-openelect-v-1-0-1-modification",
+      "slug": "unisyn-openelect-v-1-0-1-modification",
+      "name": "OpenElect v.1.0.1 Modification",
+      "manufacturer": "Unisyn Voting Solutions",
+      "vvsg_version": "1.0",
+      "cert_date": "2011-07-21",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/openelect-v101-modification",
+      "advisory_notices": []
+    },
+    {
+      "id": "unisyn-openelect-v-1-1-modification",
+      "slug": "unisyn-openelect-v-1-1-modification",
+      "name": "OpenElect v.1.1 Modification",
+      "manufacturer": "Unisyn Voting Solutions",
+      "vvsg_version": "1.0",
+      "cert_date": "2012-04-09",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/openelect-v11-modification",
+      "advisory_notices": []
+    },
+    {
+      "id": "unisyn-openelect-v-1-2-modification",
+      "slug": "unisyn-openelect-v-1-2-modification",
+      "name": "OpenElect v.1.2 Modification",
+      "manufacturer": "Unisyn Voting Solutions",
+      "vvsg_version": "1.0",
+      "cert_date": "2013-12-23",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/openelect-v12-modification",
+      "advisory_notices": []
+    },
+    {
+      "id": "unisyn-openelect-v-1-3-modification",
+      "slug": "unisyn-openelect-v-1-3-modification",
+      "name": "OpenElect v.1.3 Modification",
+      "manufacturer": "Unisyn Voting Solutions",
+      "vvsg_version": "1.0",
+      "cert_date": "2015-01-12",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/openelect-v13-modification",
+      "advisory_notices": []
+    },
+    {
+      "id": "unisyn-openelect-v-1-3-0-2-modification",
+      "slug": "unisyn-openelect-v-1-3-0-2-modification",
+      "name": "OpenElect v.1.3.0.2 Modification",
+      "manufacturer": "Unisyn Voting Solutions",
+      "vvsg_version": "1.0",
+      "cert_date": "2017-03-28",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/openelect-v1302-modification",
+      "advisory_notices": []
+    },
+    {
+      "id": "ess-unity-3-2-0-0-rev-3-modification",
+      "slug": "ess-unity-3-2-0-0-rev-3-modification",
+      "name": "Unity 3.2.0.0 Rev. 3 Modification",
+      "manufacturer": "ES&S",
+      "vvsg_version": "unknown",
+      "cert_date": "2012-05-16",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/unity-3200-rev-3-modification",
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/voting_system/files/3%202%200%200%20withdrawal%20ESS_8-3-2012%20correction.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ess-unity-3-2-1-0-previously-unity-3-0-1-0-unity-3-0-1-1-w-ats-1-3",
+      "slug": "ess-unity-3-2-1-0-previously-unity-3-0-1-0-unity-3-0-1-1-w-ats-1-3",
+      "name": "Unity 3.2.1.0 Previously Unity 3.0.1.0 & Unity 3.0.1.1 w. ATS 1.3",
+      "manufacturer": "ES&S",
+      "vvsg_version": "unknown",
+      "cert_date": "2011-03-29",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/unity-3210-previously-unity-3010-unity-3011-w-ats-13",
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/voting_system/files/DS200%20Product%20Advisory_Best%20Practices%20for%20Shutting%20Down_%205.20.16_6.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ess-unity-3-4-0-0-modification",
+      "slug": "ess-unity-3-4-0-0-modification",
+      "name": "Unity 3.4.0.0 Modification",
+      "manufacturer": "ES&S",
+      "vvsg_version": "unknown",
+      "cert_date": "2012-10-31",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/unity-3400-modification",
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/voting_system/files/ESS_FYIDS85017066_DS450_DS850_13.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ess-unity-3-4-1-0-modification",
+      "slug": "ess-unity-3-4-1-0-modification",
+      "name": "Unity 3.4.1.0 Modification",
+      "manufacturer": "ES&S",
+      "vvsg_version": "1.0",
+      "cert_date": "2014-04-04",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/unity-3410-modification",
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/voting_system/files/ESS_FYIDS85017066_DS450_DS850_14.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ess-unity-3-4-1-4-modification",
+      "slug": "ess-unity-3-4-1-4-modification",
+      "name": "Unity 3.4.1.4 Modification",
+      "manufacturer": "ES&S",
+      "vvsg_version": "1.0",
+      "cert_date": "2016-08-26",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/unity-3414-modification",
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/voting_system/files/ESS_FYIDS85017066_DS450_DS850_15.pdf"
+        }
+      ]
+    },
+    {
+      "id": "hart-verity-vanguard-1-0",
+      "slug": "hart-verity-vanguard-1-0",
+      "name": "Verity Vanguard 1.0",
+      "manufacturer": "Hart InterCivic",
+      "vvsg_version": "2.0",
+      "cert_date": "2025-07-07",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/verity-vanguard-10",
+      "advisory_notices": []
+    },
+    {
+      "id": "hart-verity-voting-1-0",
+      "slug": "hart-verity-voting-1-0",
+      "name": "Verity Voting 1.0",
+      "manufacturer": "Hart InterCivic",
+      "vvsg_version": "1.0",
+      "cert_date": "2015-05-12",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-10",
+      "advisory_notices": [
+        {
+          "date": "unknown",
+          "title": "Advisory Notice Media",
+          "url": "https://www.eac.gov/sites/default/files/voting_system/files/VERITY~1.PDF"
+        }
+      ]
+    },
+    {
+      "id": "hart-verity-voting-2-0-modification",
+      "slug": "hart-verity-voting-2-0-modification",
+      "name": "Verity Voting 2.0 Modification",
+      "manufacturer": "Hart InterCivic",
+      "vvsg_version": "1.0",
+      "cert_date": "2016-04-27",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-20-modification",
+      "advisory_notices": []
+    },
+    {
+      "id": "hart-verity-voting-2-2-modification",
+      "slug": "hart-verity-voting-2-2-modification",
+      "name": "Verity Voting 2.2 Modification",
+      "manufacturer": "Hart InterCivic",
+      "vvsg_version": "1.0",
+      "cert_date": "2016-12-12",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-22-modification",
+      "advisory_notices": []
+    },
+    {
+      "id": "hart-verity-voting-2-2-1",
+      "slug": "hart-verity-voting-2-2-1",
+      "name": "Verity Voting 2.2.1",
+      "manufacturer": "Hart InterCivic",
+      "vvsg_version": "1.0",
+      "cert_date": "2017-03-13",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-221",
+      "advisory_notices": []
+    },
+    {
+      "id": "hart-verity-voting-2-2-2",
+      "slug": "hart-verity-voting-2-2-2",
+      "name": "Verity Voting 2.2.2",
+      "manufacturer": "Hart InterCivic",
+      "vvsg_version": "1.0",
+      "cert_date": "2018-05-22",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-222",
+      "advisory_notices": []
+    },
+    {
+      "id": "hart-verity-voting-2-3-3",
+      "slug": "hart-verity-voting-2-3-3",
+      "name": "Verity Voting 2.3.3",
+      "manufacturer": "Hart InterCivic",
+      "vvsg_version": "1.0",
+      "cert_date": "2019-05-03",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-233",
+      "advisory_notices": []
+    },
+    {
+      "id": "hart-verity-voting-2-3-4",
+      "slug": "hart-verity-voting-2-3-4",
+      "name": "Verity Voting 2.3.4",
+      "manufacturer": "Hart InterCivic",
+      "vvsg_version": "1.0",
+      "cert_date": "2019-05-29",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-234",
+      "advisory_notices": []
+    },
+    {
+      "id": "hart-verity-voting-2-7",
+      "slug": "hart-verity-voting-2-7",
+      "name": "Verity Voting 2.7",
+      "manufacturer": "Hart InterCivic",
+      "vvsg_version": "1.0",
+      "cert_date": "2022-06-07",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-27",
+      "advisory_notices": []
+    },
+    {
+      "id": "hart-verity-voting-2-7-8",
+      "slug": "hart-verity-voting-2-7-8",
+      "name": "Verity Voting 2.7.8",
+      "manufacturer": "Hart InterCivic",
+      "vvsg_version": "1.0",
+      "cert_date": "2026-03-09",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-278",
+      "advisory_notices": []
+    },
+    {
+      "id": "smartmatic-vsr1-2-1",
+      "slug": "smartmatic-vsr1-2-1",
+      "name": "VSR1 2.1",
+      "manufacturer": "Smartmatic USA Corporation",
+      "vvsg_version": "2.0",
+      "cert_date": "2025-11-26",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/vsr1-21",
+      "advisory_notices": []
     }
   ],
   "states": [
@@ -207,10 +1328,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -243,10 +1370,16 @@
         "name": "Democracy Suite 5.17",
         "manufacturer": "Dominion Voting Systems",
         "vvsg_version": "1.0",
-        "cert_date": "2023-06-30",
+        "cert_date": "2023-03-16",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/2024-09/2024-MAY-20-FINAL-PAN-ICX-Touchscreen-Initialization%20%28003%29.pdf"
+          }
+        ]
       }
     },
     {
@@ -261,10 +1394,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -280,10 +1419,16 @@
         "name": "Democracy Suite 5.17",
         "manufacturer": "Dominion Voting Systems",
         "vvsg_version": "1.0",
-        "cert_date": "2023-06-30",
+        "cert_date": "2023-03-16",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/2024-09/2024-MAY-20-FINAL-PAN-ICX-Touchscreen-Initialization%20%28003%29.pdf"
+          }
+        ]
       }
     },
     {
@@ -298,10 +1443,16 @@
         "name": "Democracy Suite 5.17",
         "manufacturer": "Dominion Voting Systems",
         "vvsg_version": "1.0",
-        "cert_date": "2023-06-30",
+        "cert_date": "2023-03-16",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/2024-09/2024-MAY-20-FINAL-PAN-ICX-Touchscreen-Initialization%20%28003%29.pdf"
+          }
+        ]
       }
     },
     {
@@ -334,10 +1485,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -394,10 +1551,16 @@
         "name": "Democracy Suite 5.17",
         "manufacturer": "Dominion Voting Systems",
         "vvsg_version": "1.0",
-        "cert_date": "2023-06-30",
+        "cert_date": "2023-03-16",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/2024-09/2024-MAY-20-FINAL-PAN-ICX-Touchscreen-Initialization%20%28003%29.pdf"
+          }
+        ]
       }
     },
     {
@@ -430,10 +1593,16 @@
         "name": "EVS 6.0.4.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2019-09-12",
+        "cert_date": "2019-05-03",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_3.pdf"
+          }
+        ]
       }
     },
     {
@@ -448,10 +1617,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -483,8 +1658,8 @@
         "slug": "hart-verity-2-6",
         "name": "Verity Voting 2.6",
         "manufacturer": "Hart InterCivic",
-        "vvsg_version": "2.0",
-        "cert_date": "2024-03-22",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-20",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-26",
         "advisory_notices": []
@@ -502,10 +1677,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -520,10 +1701,16 @@
         "name": "EVS 6.0.4.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2019-09-12",
+        "cert_date": "2019-05-03",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_3.pdf"
+          }
+        ]
       }
     },
     {
@@ -607,10 +1794,16 @@
         "name": "EVS 6.0.4.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2019-09-12",
+        "cert_date": "2019-05-03",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_3.pdf"
+          }
+        ]
       }
     },
     {
@@ -625,10 +1818,16 @@
         "name": "EVS 6.0.4.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2019-09-12",
+        "cert_date": "2019-05-03",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_3.pdf"
+          }
+        ]
       }
     },
     {
@@ -661,10 +1860,16 @@
         "name": "EVS 6.0.4.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2019-09-12",
+        "cert_date": "2019-05-03",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_3.pdf"
+          }
+        ]
       }
     },
     {
@@ -697,10 +1902,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -715,10 +1926,16 @@
         "name": "Democracy Suite 5.17",
         "manufacturer": "Dominion Voting Systems",
         "vvsg_version": "1.0",
-        "cert_date": "2023-06-30",
+        "cert_date": "2023-03-16",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/2024-09/2024-MAY-20-FINAL-PAN-ICX-Touchscreen-Initialization%20%28003%29.pdf"
+          }
+        ]
       }
     },
     {
@@ -769,10 +1986,16 @@
         "name": "Democracy Suite 5.17",
         "manufacturer": "Dominion Voting Systems",
         "vvsg_version": "1.0",
-        "cert_date": "2023-06-30",
+        "cert_date": "2023-03-16",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/2024-09/2024-MAY-20-FINAL-PAN-ICX-Touchscreen-Initialization%20%28003%29.pdf"
+          }
+        ]
       }
     },
     {
@@ -787,10 +2010,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -828,10 +2057,16 @@
         "name": "EVS 6.0.4.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2019-09-12",
+        "cert_date": "2019-05-03",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_3.pdf"
+          }
+        ]
       }
     },
     {
@@ -846,10 +2081,16 @@
         "name": "EVS 6.0.4.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2019-09-12",
+        "cert_date": "2019-05-03",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_3.pdf"
+          }
+        ]
       }
     },
     {
@@ -900,10 +2141,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -918,10 +2165,16 @@
         "name": "EVS 6.0.4.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2019-09-12",
+        "cert_date": "2019-05-03",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_3.pdf"
+          }
+        ]
       }
     },
     {
@@ -936,10 +2189,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -972,10 +2231,16 @@
         "name": "EVS 6.0.4.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2019-09-12",
+        "cert_date": "2019-05-03",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_3.pdf"
+          }
+        ]
       }
     },
     {
@@ -1013,10 +2278,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -1090,10 +2361,16 @@
         "name": "EVS 6.0.4.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2019-09-12",
+        "cert_date": "2019-05-03",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_3.pdf"
+          }
+        ]
       }
     },
     {
@@ -1108,10 +2385,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -1138,10 +2421,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -1157,10 +2446,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -1176,10 +2471,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -1195,10 +2496,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -1271,10 +2578,16 @@
         "name": "Democracy Suite 5.17",
         "manufacturer": "Dominion Voting Systems",
         "vvsg_version": "1.0",
-        "cert_date": "2023-06-30",
+        "cert_date": "2023-03-16",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/2024-09/2024-MAY-20-FINAL-PAN-ICX-Touchscreen-Initialization%20%28003%29.pdf"
+          }
+        ]
       }
     },
     {
@@ -1290,10 +2603,16 @@
         "name": "Democracy Suite 5.17",
         "manufacturer": "Dominion Voting Systems",
         "vvsg_version": "1.0",
-        "cert_date": "2023-06-30",
+        "cert_date": "2023-03-16",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/2024-09/2024-MAY-20-FINAL-PAN-ICX-Touchscreen-Initialization%20%28003%29.pdf"
+          }
+        ]
       }
     },
     {
@@ -1309,10 +2628,16 @@
         "name": "Democracy Suite 5.17",
         "manufacturer": "Dominion Voting Systems",
         "vvsg_version": "1.0",
-        "cert_date": "2023-06-30",
+        "cert_date": "2023-03-16",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/2024-09/2024-MAY-20-FINAL-PAN-ICX-Touchscreen-Initialization%20%28003%29.pdf"
+          }
+        ]
       }
     },
     {
@@ -1352,10 +2677,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -1371,10 +2702,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -1390,10 +2727,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -1409,10 +2752,16 @@
         "name": "Democracy Suite 5.17",
         "manufacturer": "Dominion Voting Systems",
         "vvsg_version": "1.0",
-        "cert_date": "2023-06-30",
+        "cert_date": "2023-03-16",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/2024-09/2024-MAY-20-FINAL-PAN-ICX-Touchscreen-Initialization%20%28003%29.pdf"
+          }
+        ]
       }
     },
     {
@@ -1428,10 +2777,16 @@
         "name": "Democracy Suite 5.17",
         "manufacturer": "Dominion Voting Systems",
         "vvsg_version": "1.0",
-        "cert_date": "2023-06-30",
+        "cert_date": "2023-03-16",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/2024-09/2024-MAY-20-FINAL-PAN-ICX-Touchscreen-Initialization%20%28003%29.pdf"
+          }
+        ]
       }
     },
     {
@@ -1466,10 +2821,16 @@
         "name": "Democracy Suite 5.17",
         "manufacturer": "Dominion Voting Systems",
         "vvsg_version": "1.0",
-        "cert_date": "2023-06-30",
+        "cert_date": "2023-03-16",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/2024-09/2024-MAY-20-FINAL-PAN-ICX-Touchscreen-Initialization%20%28003%29.pdf"
+          }
+        ]
       }
     },
     {
@@ -1504,10 +2865,16 @@
         "name": "Democracy Suite 5.17",
         "manufacturer": "Dominion Voting Systems",
         "vvsg_version": "1.0",
-        "cert_date": "2023-06-30",
+        "cert_date": "2023-03-16",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/2024-09/2024-MAY-20-FINAL-PAN-ICX-Touchscreen-Initialization%20%28003%29.pdf"
+          }
+        ]
       }
     },
     {
@@ -1523,10 +2890,16 @@
         "name": "Democracy Suite 5.17",
         "manufacturer": "Dominion Voting Systems",
         "vvsg_version": "1.0",
-        "cert_date": "2023-06-30",
+        "cert_date": "2023-03-16",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/2024-09/2024-MAY-20-FINAL-PAN-ICX-Touchscreen-Initialization%20%28003%29.pdf"
+          }
+        ]
       }
     },
     {
@@ -1542,10 +2915,16 @@
         "name": "Democracy Suite 5.17",
         "manufacturer": "Dominion Voting Systems",
         "vvsg_version": "1.0",
-        "cert_date": "2023-06-30",
+        "cert_date": "2023-03-16",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/2024-09/2024-MAY-20-FINAL-PAN-ICX-Touchscreen-Initialization%20%28003%29.pdf"
+          }
+        ]
       }
     },
     {
@@ -1637,10 +3016,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -1656,10 +3041,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -1675,10 +3066,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -1852,10 +3249,16 @@
         "name": "Democracy Suite 5.17",
         "manufacturer": "Dominion Voting Systems",
         "vvsg_version": "1.0",
-        "cert_date": "2023-06-30",
+        "cert_date": "2023-03-16",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/2024-09/2024-MAY-20-FINAL-PAN-ICX-Touchscreen-Initialization%20%28003%29.pdf"
+          }
+        ]
       }
     },
     {
@@ -1871,10 +3274,16 @@
         "name": "Democracy Suite 5.17",
         "manufacturer": "Dominion Voting Systems",
         "vvsg_version": "1.0",
-        "cert_date": "2023-06-30",
+        "cert_date": "2023-03-16",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/2024-09/2024-MAY-20-FINAL-PAN-ICX-Touchscreen-Initialization%20%28003%29.pdf"
+          }
+        ]
       }
     },
     {
@@ -1890,10 +3299,16 @@
         "name": "Democracy Suite 5.17",
         "manufacturer": "Dominion Voting Systems",
         "vvsg_version": "1.0",
-        "cert_date": "2023-06-30",
+        "cert_date": "2023-03-16",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/2024-09/2024-MAY-20-FINAL-PAN-ICX-Touchscreen-Initialization%20%28003%29.pdf"
+          }
+        ]
       }
     },
     {
@@ -1909,10 +3324,16 @@
         "name": "Democracy Suite 5.17",
         "manufacturer": "Dominion Voting Systems",
         "vvsg_version": "1.0",
-        "cert_date": "2023-06-30",
+        "cert_date": "2023-03-16",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/2024-09/2024-MAY-20-FINAL-PAN-ICX-Touchscreen-Initialization%20%28003%29.pdf"
+          }
+        ]
       }
     },
     {
@@ -1928,10 +3349,16 @@
         "name": "Democracy Suite 5.17",
         "manufacturer": "Dominion Voting Systems",
         "vvsg_version": "1.0",
-        "cert_date": "2023-06-30",
+        "cert_date": "2023-03-16",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/2024-09/2024-MAY-20-FINAL-PAN-ICX-Touchscreen-Initialization%20%28003%29.pdf"
+          }
+        ]
       }
     },
     {
@@ -2004,10 +3431,16 @@
         "name": "EVS 6.0.4.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2019-09-12",
+        "cert_date": "2019-05-03",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_3.pdf"
+          }
+        ]
       }
     },
     {
@@ -2023,10 +3456,16 @@
         "name": "EVS 6.0.4.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2019-09-12",
+        "cert_date": "2019-05-03",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_3.pdf"
+          }
+        ]
       }
     },
     {
@@ -2042,10 +3481,16 @@
         "name": "EVS 6.0.4.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2019-09-12",
+        "cert_date": "2019-05-03",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_3.pdf"
+          }
+        ]
       }
     },
     {
@@ -2061,10 +3506,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -2080,10 +3531,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -2099,10 +3556,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -2156,10 +3619,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -2212,8 +3681,8 @@
         "slug": "hart-verity-2-6",
         "name": "Verity Voting 2.6",
         "manufacturer": "Hart InterCivic",
-        "vvsg_version": "2.0",
-        "cert_date": "2024-03-22",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-20",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-26",
         "advisory_notices": []
@@ -2231,8 +3700,8 @@
         "slug": "hart-verity-2-6",
         "name": "Verity Voting 2.6",
         "manufacturer": "Hart InterCivic",
-        "vvsg_version": "2.0",
-        "cert_date": "2024-03-22",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-20",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-26",
         "advisory_notices": []
@@ -2250,8 +3719,8 @@
         "slug": "hart-verity-2-6",
         "name": "Verity Voting 2.6",
         "manufacturer": "Hart InterCivic",
-        "vvsg_version": "2.0",
-        "cert_date": "2024-03-22",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-20",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-26",
         "advisory_notices": []
@@ -2269,8 +3738,8 @@
         "slug": "hart-verity-2-6",
         "name": "Verity Voting 2.6",
         "manufacturer": "Hart InterCivic",
-        "vvsg_version": "2.0",
-        "cert_date": "2024-03-22",
+        "vvsg_version": "1.0",
+        "cert_date": "2021-04-20",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-26",
         "advisory_notices": []
@@ -2289,10 +3758,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -2308,10 +3783,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -2327,10 +3808,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -2346,10 +3833,16 @@
         "name": "EVS 6.0.4.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2019-09-12",
+        "cert_date": "2019-05-03",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_3.pdf"
+          }
+        ]
       }
     },
     {
@@ -2365,10 +3858,16 @@
         "name": "EVS 6.0.4.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2019-09-12",
+        "cert_date": "2019-05-03",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_3.pdf"
+          }
+        ]
       }
     },
     {
@@ -2384,10 +3883,16 @@
         "name": "EVS 6.0.4.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2019-09-12",
+        "cert_date": "2019-05-03",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_3.pdf"
+          }
+        ]
       }
     },
     {
@@ -2659,10 +4164,16 @@
         "name": "EVS 6.0.4.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2019-09-12",
+        "cert_date": "2019-05-03",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_3.pdf"
+          }
+        ]
       }
     },
     {
@@ -2697,10 +4208,16 @@
         "name": "EVS 6.0.4.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2019-09-12",
+        "cert_date": "2019-05-03",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_3.pdf"
+          }
+        ]
       }
     },
     {
@@ -2716,10 +4233,16 @@
         "name": "EVS 6.0.4.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2019-09-12",
+        "cert_date": "2019-05-03",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_3.pdf"
+          }
+        ]
       }
     },
     {
@@ -2735,10 +4258,16 @@
         "name": "EVS 6.0.4.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2019-09-12",
+        "cert_date": "2019-05-03",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_3.pdf"
+          }
+        ]
       }
     },
     {
@@ -2754,10 +4283,16 @@
         "name": "EVS 6.0.4.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2019-09-12",
+        "cert_date": "2019-05-03",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_3.pdf"
+          }
+        ]
       }
     },
     {
@@ -2830,10 +4365,16 @@
         "name": "EVS 6.0.4.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2019-09-12",
+        "cert_date": "2019-05-03",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_3.pdf"
+          }
+        ]
       }
     },
     {
@@ -2849,10 +4390,16 @@
         "name": "EVS 6.0.4.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2019-09-12",
+        "cert_date": "2019-05-03",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_3.pdf"
+          }
+        ]
       }
     },
     {
@@ -2944,10 +4491,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -2963,10 +4516,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -2982,10 +4541,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -3001,10 +4566,16 @@
         "name": "Democracy Suite 5.17",
         "manufacturer": "Dominion Voting Systems",
         "vvsg_version": "1.0",
-        "cert_date": "2023-06-30",
+        "cert_date": "2023-03-16",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/2024-09/2024-MAY-20-FINAL-PAN-ICX-Touchscreen-Initialization%20%28003%29.pdf"
+          }
+        ]
       }
     },
     {
@@ -3020,10 +4591,16 @@
         "name": "Democracy Suite 5.17",
         "manufacturer": "Dominion Voting Systems",
         "vvsg_version": "1.0",
-        "cert_date": "2023-06-30",
+        "cert_date": "2023-03-16",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/2024-09/2024-MAY-20-FINAL-PAN-ICX-Touchscreen-Initialization%20%28003%29.pdf"
+          }
+        ]
       }
     },
     {
@@ -3096,10 +4673,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -3134,10 +4717,16 @@
         "name": "Democracy Suite 5.17",
         "manufacturer": "Dominion Voting Systems",
         "vvsg_version": "1.0",
-        "cert_date": "2023-06-30",
+        "cert_date": "2023-03-16",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/2024-09/2024-MAY-20-FINAL-PAN-ICX-Touchscreen-Initialization%20%28003%29.pdf"
+          }
+        ]
       }
     },
     {
@@ -3153,10 +4742,16 @@
         "name": "Democracy Suite 5.17",
         "manufacturer": "Dominion Voting Systems",
         "vvsg_version": "1.0",
-        "cert_date": "2023-06-30",
+        "cert_date": "2023-03-16",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/2024-09/2024-MAY-20-FINAL-PAN-ICX-Touchscreen-Initialization%20%28003%29.pdf"
+          }
+        ]
       }
     },
     {
@@ -3172,10 +4767,16 @@
         "name": "Democracy Suite 5.17",
         "manufacturer": "Dominion Voting Systems",
         "vvsg_version": "1.0",
-        "cert_date": "2023-06-30",
+        "cert_date": "2023-03-16",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/democracy-suite-517",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/2024-09/2024-MAY-20-FINAL-PAN-ICX-Touchscreen-Initialization%20%28003%29.pdf"
+          }
+        ]
       }
     },
     {
@@ -3191,10 +4792,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -3210,10 +4817,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -3229,10 +4842,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -3248,10 +4867,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -3358,10 +4983,16 @@
         "name": "EVS 6.0.4.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2019-09-12",
+        "cert_date": "2019-05-03",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_3.pdf"
+          }
+        ]
       }
     },
     {
@@ -3377,10 +5008,16 @@
         "name": "EVS 6.0.4.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2019-09-12",
+        "cert_date": "2019-05-03",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_3.pdf"
+          }
+        ]
       }
     },
     {
@@ -3415,10 +5052,16 @@
         "name": "EVS 6.0.4.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2019-09-12",
+        "cert_date": "2019-05-03",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_3.pdf"
+          }
+        ]
       }
     },
     {
@@ -3453,10 +5096,16 @@
         "name": "EVS 6.0.4.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2019-09-12",
+        "cert_date": "2019-05-03",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_3.pdf"
+          }
+        ]
       }
     },
     {
@@ -3586,10 +5235,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -3605,10 +5260,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -3662,10 +5323,16 @@
         "name": "EVS 6.0.4.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2019-09-12",
+        "cert_date": "2019-05-03",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_3.pdf"
+          }
+        ]
       }
     },
     {
@@ -3681,10 +5348,16 @@
         "name": "EVS 6.0.4.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2019-09-12",
+        "cert_date": "2019-05-03",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_3.pdf"
+          }
+        ]
       }
     },
     {
@@ -3700,10 +5373,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -3719,10 +5398,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -3738,10 +5423,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -3795,10 +5486,16 @@
         "name": "EVS 6.0.4.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2019-09-12",
+        "cert_date": "2019-05-03",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_3.pdf"
+          }
+        ]
       }
     },
     {
@@ -3833,10 +5530,16 @@
         "name": "EVS 6.0.4.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2019-09-12",
+        "cert_date": "2019-05-03",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_3.pdf"
+          }
+        ]
       }
     },
     {
@@ -3995,10 +5698,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -4014,10 +5723,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -4033,10 +5748,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -4262,10 +5983,16 @@
         "name": "EVS 6.0.4.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2019-09-12",
+        "cert_date": "2019-05-03",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_3.pdf"
+          }
+        ]
       }
     },
     {
@@ -4281,10 +6008,16 @@
         "name": "EVS 6.0.4.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2019-09-12",
+        "cert_date": "2019-05-03",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6040",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_3.pdf"
+          }
+        ]
       }
     },
     {
@@ -4300,10 +6033,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {
@@ -4319,10 +6058,16 @@
         "name": "EVS 6.1.1.0",
         "manufacturer": "ES&S",
         "vvsg_version": "1.0",
-        "cert_date": "2021-04-02",
+        "cert_date": "2020-07-27",
         "status": "active",
         "eac_url": "https://www.eac.gov/voting-equipment/evs-6110",
-        "advisory_notices": []
+        "advisory_notices": [
+          {
+            "date": "unknown",
+            "title": "Advisory Notice Media",
+            "url": "https://www.eac.gov/sites/default/files/voting_system/files/1-17-23%20Monmouth%20Co%20NJ%20Election%20Results2_7.pdf"
+          }
+        ]
       }
     },
     {

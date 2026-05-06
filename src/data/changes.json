@@ -1,51 +1,352 @@
 [
   {
-    "date": "2025-07-14",
-    "system_id": "hart-verity-2-6",
-    "system_name": "Hart Verity Vanguard 1.0",
+    "date": "2026-05-06",
+    "system_id": "premier-assure-1-2",
+    "system_name": "Assure 1.2",
     "kind": "certified",
-    "detail": "Certified VVSG 2.0 · Jul 2025"
+    "detail": "Newly certified VVSG unknown · 2026-05-06"
   },
   {
-    "date": "2025-03-04",
-    "system_id": "ess-evs-6-1-2-0",
-    "system_name": "ES&S EVS 6.1.2.0",
-    "kind": "maintenance",
-    "detail": "Maintenance update · Mar 2025"
-  },
-  {
-    "date": "2024-12-11",
-    "system_id": "dominion-democracy-suite-5-17",
-    "system_name": "Dominion DS300",
-    "kind": "advisory",
-    "detail": "Advisory notice issued · Dec 2024"
-  },
-  {
-    "date": "2024-08-14",
-    "system_id": "ess-evs-6-5-0-0",
-    "system_name": "ES&S EVS 6.5.0.0",
+    "date": "2026-05-06",
+    "system_id": "dominion-assure-1-3-modification",
+    "system_name": "Assure 1.3 Modification",
     "kind": "certified",
-    "detail": "Newly certified · Aug 2024"
+    "detail": "Newly certified VVSG unknown · 2026-05-06"
   },
   {
-    "date": "2024-03-22",
-    "system_id": "hart-verity-2-6",
-    "system_name": "Hart Verity Voting 2.6",
+    "date": "2026-05-06",
+    "system_id": "clear-ballot-clearvote-2-5",
+    "system_name": "ClearVote 2.5",
     "kind": "certified",
-    "detail": "First VVSG 2.0 certification issued · Mar 2024"
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
   },
   {
-    "date": "2023-06-30",
-    "system_id": "dominion-democracy-suite-5-17",
-    "system_name": "Dominion Democracy Suite 5.17",
+    "date": "2026-05-06",
+    "system_id": "clear-ballot-clearvote-1-4",
+    "system_name": "ClearVote 1.4",
     "kind": "certified",
-    "detail": "Newly certified · Jun 2023"
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
   },
   {
-    "date": "2023-02-14",
-    "system_id": "clear-ballot-clearvote-2-3",
-    "system_name": "Clear Ballot ClearVote 2.3",
+    "date": "2026-05-06",
+    "system_id": "clear-ballot-clearvote-1-5",
+    "system_name": "ClearVote 1.5",
     "kind": "certified",
-    "detail": "Newly certified · Feb 2023"
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "clear-ballot-clearvote-2-0",
+    "system_name": "ClearVote 2.0",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "clear-ballot-clearvote-2-2",
+    "system_name": "ClearVote 2.2",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "dominion-democracy-suite-4-0",
+    "system_name": "Democracy Suite 4.0",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "dominion-democracy-suite-4-14-modification",
+    "system_name": "Democracy Suite 4.14 Modification",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "dominion-democracy-suite-4-14-a-1-modification",
+    "system_name": "Democracy Suite 4.14-A.1 Modification",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "dominion-democracy-suite-4-14-b-modification",
+    "system_name": "Democracy Suite 4.14-B Modification",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "dominion-democracy-suite-4-14-d-modification",
+    "system_name": "Democracy Suite 4.14-D Modification",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "dominion-democracy-suite-4-14-e-modification",
+    "system_name": "Democracy Suite 4.14-E Modification",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "dominion-democracy-suite-4-14a-modification",
+    "system_name": "Democracy Suite 4.14A Modification",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "dominion-democracy-suite-5-0",
+    "system_name": "Democracy Suite 5.0",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "dominion-democracy-suite-5-0-a",
+    "system_name": "Democracy Suite 5.0-A",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "dominion-democracy-suite-5-20",
+    "system_name": "Democracy Suite 5.20",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "dominion-democracy-suite-5-5",
+    "system_name": "Democracy Suite 5.5",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "dominion-democracy-suite-5-5-a-modification",
+    "system_name": "Democracy Suite 5.5-A (Modification)",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "dominion-democracy-suite-5-5-c",
+    "system_name": "Democracy Suite 5.5-C",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "dominion-democracy-suite-5-5-d",
+    "system_name": "Democracy Suite 5.5-D",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "dominion-democracy-suite-5-5b-modification",
+    "system_name": "Democracy Suite 5.5B (Modification)",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "microvote-ems-4-2-modification",
+    "system_name": "EMS 4.2 Modification",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "microvote-ems-ver-4-0",
+    "system_name": "EMS Ver. 4.0",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "microvote-ems-ver-4-0b-modification",
+    "system_name": "EMS Ver. 4.0B Modification",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "microvote-ems-ver-4-1-modification",
+    "system_name": "EMS Ver. 4.1 Modification",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "ess-evs-5-0-0-0",
+    "system_name": "EVS 5.0.0.0",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "ess-evs-5-0-1-0-modification",
+    "system_name": "EVS 5.0.1.0 Modification",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "ess-evs-5-2-0-0-modification",
+    "system_name": "EVS 5.2.0.0 Modification",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "ess-evs-5-2-0-3-modification",
+    "system_name": "EVS 5.2.0.3 Modification",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "ess-evs-5-2-0-4-modification",
+    "system_name": "EVS 5.2.0.4 Modification",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "ess-evs-5-2-1-0-modification",
+    "system_name": "EVS 5.2.1.0 Modification",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "ess-evs-5-2-1-1-modification",
+    "system_name": "EVS 5.2.1.1 Modification",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "ess-evs-5-2-2-0-modification",
+    "system_name": "EVS 5.2.2.0 Modification",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "ess-evs-5-2-3-0",
+    "system_name": "EVS 5.2.3.0",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "ess-evs-5-2-4-0",
+    "system_name": "EVS 5.2.4.0",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "ess-evs-5-4-0-0-modification",
+    "system_name": "EVS 5.4.0.0 Modification",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "ess-evs-5-4-1-0",
+    "system_name": "EVS 5.4.1.0",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "ess-evs-6-0-0-0",
+    "system_name": "EVS 6.0.0.0",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "ess-evs-6-0-2-0-modification",
+    "system_name": "EVS 6.0.2.0 (Modification)",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "ess-evs-6-0-2-1-modification",
+    "system_name": "EVS 6.0.2.1 (Modification)",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "ess-evs-6-0-3-0",
+    "system_name": "EVS 6.0.3.0",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "ess-evs-6-0-4-3",
+    "system_name": "EVS 6.0.4.3",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "ess-evs-6-0-6-0",
+    "system_name": "EVS 6.0.6.0",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "ess-evs-6-1-0-0",
+    "system_name": "EVS 6.1.0.0",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "ess-evs-6-2-0-0",
+    "system_name": "EVS 6.2.0.0",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "ess-evs-6-3-0-0",
+    "system_name": "EVS 6.3.0.0",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "ess-evs-6-4-0-0",
+    "system_name": "EVS 6.4.0.0",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "microvote-microvote-ems-4-3-a",
+    "system_name": "MicroVote EMS 4.3-A",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
+  },
+  {
+    "date": "2026-05-06",
+    "system_id": "microvote-microvote-ems-4-4",
+    "system_name": "MicroVote EMS 4.4",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
   }
 ]
