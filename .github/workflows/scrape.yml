@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   scrape:
@@ -38,11 +39,20 @@ jobs:
         if: steps.git_diff.outputs.has_changes == 'true'
         run: npm run build:data
 
-      - name: Commit and push
+      - name: Create update pull request
         if: steps.git_diff.outputs.has_changes == 'true'
-        run: |
-          git config user.name  "certmap-bot"
-          git config user.email "certmap-bot@users.noreply.github.com"
-          git add src/data/systems.json src/data/changes.json public/certmap-data.csv public/certmap-data.json
-          git commit -m "chore: update EAC certification data [$(date -u +%Y-%m-%d)]"
-          git push
+        uses: peter-evans/create-pull-request@v8
+        with:
+          branch: automation/eac-certification-data
+          delete-branch: true
+          commit-message: "chore: update EAC certification data"
+          title: "chore: update EAC certification data"
+          body: |
+            Automated EAC certification data update.
+
+            This PR was created by the scheduled scraper workflow.
+          add-paths: |
+            src/data/systems.json
+            src/data/changes.json
+            public/certmap-data.csv
+            public/certmap-data.json
