@@ -20,22 +20,6 @@ const FAQ: { q: string; a: React.ReactNode }[] = [
     q: "What's VVSG 2.0?",
     a: "The Voluntary Voting System Guidelines 2.0, adopted by the EAC in February 2021. VVSG 2.0 is a significant update to the prior 1.0/1.1 standards — stronger security and accessibility requirements, modular architecture requirements, and new software independence mandates. As of 2026, only one system (Hart Verity Voting 2.6) has been certified to VVSG 2.0; the vast majority of deployed systems remain certified to 1.0 or 1.1.",
   },
-  {
-    q: "I found an error. How do I report it?",
-    a: (
-      <>
-        <a
-          href="https://github.com/Francis220/certmap/issues/new"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="underline hover:text-ink"
-        >
-          Open an issue on GitHub
-        </a>
-        {" — data errors are the most useful to report. Wrong system attributed to a jurisdiction, stale cert status, a county missing. Include the state or jurisdiction and a source if you have one."}
-      </>
-    ),
-  },
 ];
 
 export default function AboutPage() {
