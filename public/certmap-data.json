@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T18:33:23.986Z",
+  "generated_at": "2026-09-05T09:57:53.870Z",
   "systems": [
     {
       "id": "hart-verity-2-6",
@@ -1323,6 +1323,17 @@
       "cert_date": "2026-05-22",
       "status": "active",
       "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-28",
+      "advisory_notices": []
+    },
+    {
+      "id": "hart-verity-vanguard-1-1",
+      "slug": "hart-verity-vanguard-1-1",
+      "name": "Verity Vanguard 1.1",
+      "manufacturer": "Hart InterCivic",
+      "vvsg_version": "2.0",
+      "cert_date": "2026-06-26",
+      "status": "active",
+      "eac_url": "https://www.eac.gov/voting-equipment/verity-vanguard-11",
       "advisory_notices": []
     }
   ],
