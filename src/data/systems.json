@@ -1322,5 +1322,16 @@
     "status": "active",
     "eac_url": "https://www.eac.gov/voting-equipment/verity-voting-28",
     "advisory_notices": []
+  },
+  {
+    "id": "hart-verity-vanguard-1-1",
+    "slug": "hart-verity-vanguard-1-1",
+    "name": "Verity Vanguard 1.1",
+    "manufacturer": "Hart InterCivic",
+    "vvsg_version": "2.0",
+    "cert_date": "2026-06-26",
+    "status": "active",
+    "eac_url": "https://www.eac.gov/voting-equipment/verity-vanguard-11",
+    "advisory_notices": []
   }
 ]
