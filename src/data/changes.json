@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-09-26",
+    "system_id": "hart-verity-vanguard-1-1",
+    "system_name": "Verity Vanguard 1.1",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 2.0 · 2026-09-26"
+  },
+  {
+    "date": "2026-09-26",
+    "system_id": "votingworks-votingworks-vxsuite-4-0",
+    "system_name": "VotingWorks VxSuite 4.0",
+    "kind": "certified",
+    "detail": "Newly certified VVSG 2.0 · 2026-09-26"
+  },
+  {
     "date": "2026-05-27",
     "system_id": "hart-verity-voting-2-8",
     "system_name": "Verity Voting 2.8",
@@ -332,20 +346,6 @@
     "date": "2026-05-06",
     "system_id": "ess-evs-6-3-0-0",
     "system_name": "EVS 6.3.0.0",
-    "kind": "certified",
-    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
-  },
-  {
-    "date": "2026-05-06",
-    "system_id": "ess-evs-6-4-0-0",
-    "system_name": "EVS 6.4.0.0",
-    "kind": "certified",
-    "detail": "Newly certified VVSG 1.0 · 2026-05-06"
-  },
-  {
-    "date": "2026-05-06",
-    "system_id": "microvote-microvote-ems-4-3-a",
-    "system_name": "MicroVote EMS 4.3-A",
     "kind": "certified",
     "detail": "Newly certified VVSG 1.0 · 2026-05-06"
   }
