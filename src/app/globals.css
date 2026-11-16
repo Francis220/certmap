@@ -26,14 +26,18 @@ body {
   }
 
   .badge-20 {
-    @apply font-mono text-xs bg-ink text-white px-1.5 py-0.5;
+    @apply font-mono text-xs text-white px-1.5 py-0.5;
+    background-color: #1a1a1a;
   }
 
   .badge-10 {
-    @apply font-mono text-xs bg-line text-ink px-1.5 py-0.5;
+    @apply font-mono text-xs text-ink px-1.5 py-0.5;
+    background-color: #a3a3a3;
   }
 
   .badge-unknown {
-    @apply font-mono text-xs border border-line text-mid px-1.5 py-0.5;
+    @apply font-mono text-xs text-mid px-1.5 py-0.5;
+    background-color: #f0efe9;
+    border: 1px solid #d0cfc9;
   }
 }

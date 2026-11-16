@@ -3,7 +3,6 @@
 import { useState } from "react";
 import Link from "next/link";
 import { SYSTEM_BY_ID } from "@/data/systems";
-import { STATE_BY_ABBR } from "@/data/states";
 import { VVSGBadge } from "@/components/VVSGBadge";
 import type { StateRecord } from "@/lib/types";
 import type { VVSGVersion } from "@/lib/types";

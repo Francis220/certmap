@@ -21,7 +21,7 @@ interface ScrapedSystem {
   advisory_notices: { date: string; title: string; url?: string }[];
 }
 
-function slugify(name: string, manufacturer: string): string {
+export function slugify(name: string, manufacturer: string): string {
   const lowerManufacturer = manufacturer.toLowerCase();
   let mfrSlug = manufacturer
     .toLowerCase()
@@ -44,14 +44,14 @@ function slugify(name: string, manufacturer: string): string {
   return `${mfrSlug}-${nameSlug}`.replace(/-+/g, "-");
 }
 
-function parseVVSG(text: string): ScrapedSystem["vvsg_version"] {
+export function parseVVSG(text: string): ScrapedSystem["vvsg_version"] {
   if (/vvsg\s*2\.0/i.test(text)) return "2.0";
   if (/vvsg\s*1\.1/i.test(text)) return "1.1";
   if (/vvsg\s*1\.0/i.test(text)) return "1.0";
   return "unknown";
 }
 
-function parseStatus(text: string): ScrapedSystem["status"] {
+export function parseStatus(text: string): ScrapedSystem["status"] {
   const t = text.toLowerCase();
   if (t.includes("decertif")) return "decertified";
   if (t.includes("withdrawn")) return "withdrawn";
@@ -59,7 +59,7 @@ function parseStatus(text: string): ScrapedSystem["status"] {
   return "active";
 }
 
-function parseDate(text: string): string {
+export function parseDate(text: string): string {
   const cleaned = text.trim();
   if (!cleaned) return "unknown";
   const d = new Date(cleaned);
@@ -74,7 +74,7 @@ function absoluteEacUrl(href: string): string {
   return href.startsWith("http") ? href : `${EAC_BASE}${href}`;
 }
 
-function normalizeManufacturer(manufacturer: string): string {
+export function normalizeManufacturer(manufacturer: string): string {
   const normalized = cleanText(manufacturer);
   const lower = normalized.toLowerCase();
 
@@ -214,7 +214,7 @@ async function scrapeEAC(): Promise<ScrapedSystem[]> {
   return systems;
 }
 
-function diff(
+export function diff(
   current: Record<string, unknown>[],
   scraped: ScrapedSystem[],
 ): { added: ScrapedSystem[]; changed: ScrapedSystem[]; statusChanged: ScrapedSystem[] } {
@@ -333,4 +333,6 @@ async function main() {
   console.log("Written: systems.json, changes.json");
 }
 
-main();
+if (import.meta.url === `file://${process.argv[1]}`) {
+  main();
+}

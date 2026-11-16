@@ -57,8 +57,8 @@ export default function Home() {
                 <div className="space-y-3">
                   {[
                     { fill: "#1a1a1a", label: "VVSG 2.0 certified" },
-                    { fill: "#888888", label: "VVSG 1.0 certified" },
-                    { fill: "#e8e8e8", border: true, label: "No EAC cert / unknown" },
+                    { fill: "#a3a3a3", label: "VVSG 1.0 certified" },
+                    { fill: "#f0efe9", border: true, label: "No EAC cert / unknown" },
                   ].map(({ fill, border, label }) => (
                     <div key={label} className="flex items-center gap-3">
                       <div

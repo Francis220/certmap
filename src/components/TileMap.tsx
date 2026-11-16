@@ -22,8 +22,8 @@ interface Props {
 
 function tileColor(vvsg: VVSGVersion): string {
   if (vvsg === "2.0") return "#1a1a1a";
-  if (vvsg === "1.0" || vvsg === "1.1") return "#888888";
-  return "#e8e8e8";
+  if (vvsg === "1.0" || vvsg === "1.1") return "#a3a3a3";
+  return "#f0efe9";
 }
 
 function tileTextColor(vvsg: VVSGVersion): string {
